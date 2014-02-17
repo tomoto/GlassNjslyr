@@ -12,9 +12,12 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 import com.google.android.glass.app.Card;
 import com.google.android.glass.widget.CardScrollAdapter;
@@ -27,6 +30,8 @@ public class MainActivity extends Activity {
 
 	private CardScrollView cardScrollView;
 	private GourangaCardScrollAdapter cardScrollAdapter;
+	
+	private TextToSpeech tts;
 	
 	public static final String SAVED_STATE_CURRENT_LINE_INDEX = "currentLineIndex";
 	
@@ -70,9 +75,9 @@ public class MainActivity extends Activity {
 			}
 		}
 		
-		public List<Card> getCards() {
-			return cards;
-		}
+//		public List<Card> getCards() {
+//			return cards;
+//		}
 		
 		@Override
 		public int findIdPosition(Object id) {
@@ -119,10 +124,25 @@ public class MainActivity extends Activity {
 			textLineModels.add(new TextLineModel(index++, text));
 		}
 		
+		activateTTS();
+		
 		cardScrollView = new CardScrollView(this);
 		cardScrollAdapter = new GourangaCardScrollAdapter(this, textLineModels);
 		cardScrollView.setAdapter(cardScrollAdapter);
 		cardScrollView.activate();
+		cardScrollView.setOnItemSelectedListener(new OnItemSelectedListener() {
+			@Override
+			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+				// String text = "Card " + (position + 1) + "is selected";
+				String text = ((TextLineModel) cardScrollAdapter.getItem(position)).getText();
+				tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> arg0) {
+				tts.stop();
+			}
+		});
 		
 		restoreState();
 		
@@ -133,9 +153,23 @@ public class MainActivity extends Activity {
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 	}
 
+	private void activateTTS() {
+        tts = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                // Do nothing.
+            }
+        });
+	}
+	
+	private void deactivateTTS() {
+		tts.shutdown();
+	}
+
 	@Override
 	protected void onDestroy() {
 		deactivateSensors();
+		deactivateTTS();
 		saveState();
 		cardScrollView.deactivate();
 		super.onDestroy();
