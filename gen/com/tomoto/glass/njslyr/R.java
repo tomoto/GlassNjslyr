@@ -10,6 +10,7 @@ package com.tomoto.glass.njslyr;
 public final class R {
     public static final class array {
         public static final int story=0x7f080000;
+        public static final int story_speech=0x7f080001;
     }
     public static final class attr {
     }

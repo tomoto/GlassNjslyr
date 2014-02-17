@@ -59,4 +59,62 @@
         <item>■マディソン■４（終）■コラッ！アタシが重篤ニンジャヘッズだなんて、誰が言ったんだい！アタシはねえ、むかし本放送を見たことがあるだけの、善良ないち視聴者だよ！しかも大筋は忘れてるときたもんだ！今日はシンプルな話だったから、シンプルに終わるよ！じゃあね、さっさと寝ちまいな！■知恵■</item>
     </string-array>
 
+    <string-array name="story_speech">
+        <item>daiichikan「neosaitamaenjou」yori「neoyakuza・foh・seru」</item>
+        <item>neosaitamanisobieruakunonejiro、tokorozawa・pirahjuusankai。kokoharaomoto・kannodamihkaisha、nekosogi・fandonojimushodeari、dahku・ninja・sosaieteinotorehningu・guraundodemoaru。madonosotodeha、akaranokougekiwofusegutame、suujuumotonosahchiraitogakoushikuyozorawokirisaiteita。</item>
+        <item>raomotohanagasajuumehtorumoarukoukyuuichimaiitanodesukunisuwari、hamakiwofukasu。kyounokanoshouzokuhasentoufukudehanai。yoroshi＝sanseiyakutonoshoudangaarukarada。bijinesuyounoarumahnisuhtsujougeni、kusarizukin、ougonmenpotoiuidetachidearu。soredemo、zenshinkarasakkigaminagitteita。</item>
+        <item>「raomoto＝san、shingatanokurohnyakuza、Y-12gadekimashita」yoroshi＝sanseiyakunoeigyouga、asewofukinagarashidoromodorodesetsumeisuru。suuokutoiukanegaugokuichidaitorihikida。raomotonokigenwotorutameni、daitorofunmatsuwo30kiroguramumojisanshiteiru。</item>
+        <item>「mitemiyou、yoroshi＝san。washiworakutansasenaidekureyo」
+raomotohasekiwotachi、yoroshi＝santonarande、fukinukeninatteirujuunikaiwomioroshita。juunikaihaarihnajouninatteori、sorewogururitomiorosujuusankainogarasumadoha、subetekyoujinnaboudangarasuseitonatteiru。</item>
+        <item>「aredesu」
+　yoroshi＝sangayubisasusakiniha、kuroisuhtsunimiwotsutsundajuusuuninnokurohnyakuzagatachi、bohringunopinnoyouniseizentonarandeita。
+　omotemukihaedojidaikaratsudukukazegusurimehkah、yoroshi＝sanseiyakuha、kazukazunoseitaiheikiwourashakainiryuutsuusaserushinobukishounindemoarunoda。</item>
+        <item>「raionwohanase」raomotogabuzahbotanwooshinagarameireisuru。
+　geishanoegakaretakyodainashoujikogahiraki、nakakaramekishikounokyouakunaraiongasugatawoarawasuto、tachimachiyakuzatachinitobikatta！
+　naranoningennara50ningakaridemokorosenai、osorubekimoujuuda。</item>
+        <item>dagakurohnyakuzaha、zen\'inmattakuonajiugokidehidarinomunamotokarachakawonuki、isshimidarenushagekideraionwoanoyoniokutta。sorekara、mattakuonajiugokidechakawoshimai、mattakuonajiugokidemidaretakamiwonaoshi、mattakuonajiugokidetokonitanwohaita。namuamidabutsu！　nantoiutousotsuryokuka！</item>
+        <item>「muhahahahaha！」raomotohakoushousuru。
+「tekihamouraiondemo、kehsatsudemo、sumotoridemoonajikotodesu」yoroshi＝sannoeigyoumo、nezuminoyounawaraikoewomorashinagarajimangenikatatta。「kurohnnaradehanotouitsukandesu。Y-12hamutekidesu」shikashikanowaraimokokomadedatta。</item>
+        <item>「dehahyuhjishurikenwohanase」raomotogabuzahwooshita。
+nandatte？　yoroshi＝sannokaogakumoru。shikkinshi、eigyousuhtsunomaegahonnorishimeru。
+geishanoegakaretashoujikogahiraki、nakakarabandeittoniyokunitaninjagasugatawoarawashita。chokkei2mehtoruchikaikyodaisurikenwohimodeseotteirunogatokuchouda。</item>
+        <item>kurohnyakuzagamigamaerumaeni、hyuhjishurikenhasouzouwozessuruhodonosubayaiugokitochikarade、senakanokyodaisurikenwonageta。yakuzatachihaisseinichakahetewonobasu。dagamaniawanai！　kurohnyakuzaha、zen\'indoujinikyoufunohimeiwoageta。</item>
+        <item>seramikkuseinokyodaisurikenhabuhmerannoyounakidouwoegaki、bohringunopinnoyouninarandayakuzazen\'innokubiwokiritobashinagara、futatabimochinushidearuhyuhjishurikennotemotonimodotta。kubiwouttayakuzatachiha、itonokiretaayatsuriningyounoyouni、zen\'inisseiniushirohetotaoreta。</item>
+        <item>「muhahahahaha！　sutoraiku！　muhhahahahahaha！」raomotohasensuwohirogeteoowaraishiteita。karehajakushagamushikeranoyounishinunowomirunogananiyorimosukinanoda。</item>
+        <item>「raomoto＝san、moushiwakearimasen」yoroshi＝sannoeigyouhakyoufunoamaritokonitaorete、zensokuwookoshitamaguronoyounikuchiwopakupakutosaseteita。「sekininwotottesepukushimasu」</item>
+        <item>「iya、ii」raomotohasensuwopisharitotojiru。「hehtaiganinjayorimotsuyokereba、itsunekubiwokakarerukawakarandehanaika。yoroshi＝sanyo、konkaimoyoishigotodatta」
+「maidoarigatougozaimasu」yoroshi＝sannoeigyouhaikimotaedaenitachiagari、maewohankachidenuguita。</item>
+        <item>「shikashi、kisamahawashinoofisunotokowoyogoshitatame、ikashitehaokan」raomotogabotanwoosuto、yoroshi＝sannoeigyounoashimotogahiraki、hitokuiizuwaiganinomuragarupuhruhetomakototsusakasamanitenrakushita。eigyougakaniniteashiwokuwarerunowomioroshinagara、raomoto・kanhakononichisaikounowaraikoewoageru。</item>
+        <item>「hyuhjishurikenyo、appareda」raomotogabuzahwooshitearihnanikoewotodorokaseru。「ima、washiniha２tsunotekigaoru。ninjasureiyahtodoragondohjohda」</item>
+        <item>「ninjasureiyahnarunezuminiha、bandeittowosashimuketa。omaehaahsukueikutokumi、dohjohnihoukashitekurunoda」raomotogachimonamidamonaimeireiwokudasu。
+「yorokondeh！」hyuhjishurikenhabakutenwouchinagara、shoujikonomukounikieta。（「sapuraizudo・dohjoh」nitsuduku）</item>
+        <item>◆sukoshino◆
+taihenosewaninatteorimasu。honjitsuha２２jikorokarashudouniyorumijikainasaihousouwoyoteishiteorimasu。douzoyoroshikuonegaiitashimasu。
+◆doujou◆ #njslyr #njslyr7r</item>
+        <item>◆◆◆◆◆◆◆◆◆◆◆◆</item>
+        <item>daiichikan「neosaitamaenjou」yori　「neoyakuza・foh・sehru」</item>
+        <item>neosaitamanisobieruakunonejiro、tokorozawa・pirahjuusankai。kokoharaomoto・kannodamihkaisha、nekosogi・fandonojimushodeari、yaminoninjasoshiki「soukaiya」notorehningu・guraundodemoaru。madonosotodeha、akaranokougekiwofusegutame、suujuumotonosahchiraitogakoushikuyozorawokirisaiteita。　１</item>
+        <item>raomotohanagasajuumehtorumoarukoukyuuichimaiitanodesukunisuwari、hamakiwofukasu。kyounokanoshouzokuhasentoufukudehanai。yoroshisanseiyakutonoshoudangaarukarada。bijinesuyounoarumahnisuhtsujougeni、kusarizukin、ougonmenpotoiuidetachidearu。soredemo、zenshinkarasakkigaminagitteita。　2</item>
+        <item>「raomoto＝san、shingatanokurohnyakuza、Y-12gadekimashita」yoroshisanseiyakunoeigyouga、asewofukinagarashidoromodorodesetsumeisuru。suuokutoiukanegaugokuichidaitorihikida。raomotonokigenwotorutameni、daitorofunmatsuwo30kiroguramumojisanshiteiru。　3</item>
+        <item>「mitemiyou、yoroshi＝san。washiworakutansasenaidekureyo」 raomotohasekiwotachi、yoroshisanseiyakunoeigyoutonarande、fukinukeninatteirujuunikaiwomioroshita。juunikaihaarihnajouninatteori、sorewogururitomiorosujuusankainogarasumadoha、subetegakyoujinnaboudangarasuseitonatteiru。　4</item>
+        <item>「aredesu」 yoroshi＝sangayubisasusakiniha、kuroisuhtsunimiwotsutsundajuusuuninnokurohnyakuzagatachi、bohringunopinmeiteseizentonarandeita。yoroshisanseiyakuha、omotemukihaedojidaikaratsudukukazegusurimehkahdearu。dagasonoippoude、kazukazunoseitaiheikiwourashakainiryuutsuusaserushinobukishounindemoarunoda。　5</item>
+        <item>「……raionwohanase」raomotohabuzahbotanwooshinagarameireisuru。geishanoegakaretakyodainashoujikogahiraki、nakakaramekishikounokyouakunaraiongasugatawoarawasuto、tachimachikurohnyakuzatachinitobikatta！naranoningennaraba50ningakaridemokorosenai、osorubekimoujuuda！　6</item>
+        <item>dagakurohnyakuzaha、zen\'inmattakuonajiugokidehidarinomunamotokarachakawonuki、isshimidarenushagekideraionwoanoyoniokutta。sorekara、mattakuonajiugokidechakawoshimai、mattakuonajiugokidemidaretakamiwonaoshi、mattakuonajiugokidetokonitanwohaitanodearu。namuamidabutsu！nantarutousotsuryokuka！　7</item>
+        <item>「muhahahahaha！」raomotohakoushousuru。 「tekihamouraiondemo、kehsatsudemo、sumotoridemoonajikotodesu！」yoroshisannoeigyouha、nezumijimitawaraikoewomorashinagarajimangenikatatta。「kurohnnaradehanotouitsukandesu！Y-12hamutekidesu！」shikashi、kanowaraimokokomadedatta。　8</item>
+        <item>「dehahyuhjishurikenwohanase」raomotogabuzahwooshita。nandatte？yoroshi＝sannokaogakumoru。shikkinshi、eigyousuhtsunomaegahonnorishimeru。geishanoegakaretashoujikogahiraki、nakakarabandeittoniyokunitaninjagasugatawoarawashita。chokkei2mehtoruchikaikyodaisurikenwohimodeseotteirunogatokuchouda。　9</item>
+        <item>kurohnyakuzagamigamaerumaeni、hyuhjishurikenhasouzouwozessuruhodonosubayaiugokitochikarade、senakanokyodaisurikenwonageta。yakuzatachihaisseinichakahetotewonobasu。dagamaniawanai！kurohnyakuzaha、zen\'indoujinikyoufunohimeiwoageta！　10</item>
+        <item>seramikkuseinokyodaisurikenhabuhmeranmeitakisekiwoegaki、bohringunopinnoyouninarandakurohnyakuzazen\'innokubiwokiritobashinagara、futatabimochinushidearuhyuhjishurikennotemotonimodotta。kubiwouttayakuzatachiha、itonokiretaayatsuriningyounoyouni、zen\'inisseiniushirohetotaoreru！　11</item>
+        <item>「muhahahahaha！sutoraiku！muhhahahahahaha！」raomotohasensuwohirogeteoowaraishiteita。karehajakushagamushikeranoyounishinunowomirunoga、naniyorimosukinanoda。　12</item>
+        <item>「……raomoto＝san、mo、moushiwakearimasen……」yoroshisannoeigyouhakyoufunoamaritokonitaore、zensokuwookoshitamaguronoyounikuchiwopakupakutosaseteita。「……sekininwotottesepukushimasu」　13</item>
+        <item>「iya、ii」raomotohasensuwopisharitotojiru「heitaiganinjayorimotsuyokereba、itsunekubiwokakarerukawakarandehanaika。yoroshi＝sanyo、konkaimoyoishigotodeatta」 「maidoarigatougozaimasu」yoroshisannoeigyouhaikimotaedaenitachiagari、maewohankachidenuguita。　14</item>
+        <item>「shikashi、kisamahawashinoofisunotokowoyogoshitatame、ikashitehaokan」raomotohafuinibotanosu！surutoeigyounoashimotogahiraki、hitokuiizuwaiganinomuragarupuhruhetomakototsusakasamanitenrakushita！namusan！eigyougakaniniteashiwokuwarerunowomioroshinagara、raomoto・kanhakononichisaikounowaraikoewoageru！　15</item>
+        <item>「hyuhjishurikenyo、appareda」raomotogabuzahwooshitearihnanikoewotodorokaseru。「ima、washiniha２tsunotekigaoru。ninjasureiyahtodoragon・dohjohda」　16</item>
+        <item>「ninjasureiyahnarunezuminiha、bandeittowosashimuketa。omaehaahsukueikutokumi、dohjohnihoukashitekurunoda」raomotogachimonamidamonaimeireiwokudasu。 「yorokondeh！」hyuhjishurikenharenzokubakutenwouchinagara、shoujikonomukounikieta！　17</item>
+        <item>（「neoyakuza・foh・sehru」owari　「sapuraizudo・dohjoh」nitsuduku）</item>
+        <item>■madeisonobaachan■１■ 『……hai、korede「neoyakuza・foh・sehru」haowarida。raionkowainee！kurohnyakuzamokowainee！joujingayakuzayaraionto１tsui１detatakattara、douagaitattekachimehanaiyo。demo、ninjahamottokowai！korehane、isshunoshokumotsurensananoyo！』■chie■</item>
+        <item>■madeisonobaachan■２■ 『……a？soko、nanikaitsuttakai！？zuibuntomijikaihanashidatte！？……fehfehfeh、soryasousa、konohanashihasaishokinikakaretamonode、shikamo「sapuraizudo・dohjoh」nopurorohgumitainamondakaranee。kocchimo、kinjitsusaihousouyoteidayo。tanoshiminine！』■chie■</item>
+        <item>■madeison■３■ 『wattsu？raomotohaninjananoni、nandeninjashouzokuwokitenainokatte？soryaane、daremokaremoshirokujichuuninjashouzokukitetaraninjadattebarerujanaino！arehaisshuno、sentoufukumitainamononanoyo。atashaninjajanaikarahontounotokohakainnaikedone！』■chie■</item>
+        <item>■madeison■４（owari）■koratsu！atashigajuuatsushininjahezzudanante、daregaitsuttandai！atashihanee、mukashihonhousouwomitakotogaarudakeno、zenryounaichishichoushadayo！shikamooosujihawasureterutokitamonda！konnichihashinpurunahanashidattakara、shinpuruniowaruyo！jaane、sassatonechimaina！■chie■</item>
+    </string-array>
+
 </resources>
