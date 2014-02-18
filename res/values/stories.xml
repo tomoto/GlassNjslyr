@@ -2,119 +2,443 @@
 <resources>
 
     <string-array name="story">
-        <item>第１巻「ネオサイタマ炎上」より「ネオヤクザ・フォー・セル」</item>
-        <item>ネオサイタマに聳える悪の根城、トコロザワ・ピラー十三階。ここはラオモト・カンのダミー会社、ネコソギ・ファンドの事務所であり、ダーク・ニンジャ・ソサイエティのトレーニング・グラウンドでもある。窓の外では、空からの攻撃を防ぐため、数十基のサーチライトが慌しく夜空を切り裂いていた。</item>
-        <item>ラオモトは長さ十メートルもある高級一枚板のデスクに座り、葉巻をふかす。今日の彼の装束は戦闘服ではない。ヨロシ＝サン製薬との商談があるからだ。ビジネス用のアルマーニスーツ上下に、鎖頭巾、黄金メンポという出で立ちである。それでも、全身から殺気がみなぎっていた。</item>
-        <item>「ラオモト＝サン、新型のクローンヤクザ、Y-12ができました」ヨロシ＝サン製薬の営業が、汗をふきながらしどろもどろで説明する。数億というカネが動く一大取引だ。ラオモトの機嫌を取るために、大トロ粉末を30キログラムも持参している。</item>
-        <item>「見てみよう、ヨロシ＝サン。ワシを落胆させないでくれよ」
-ラオモトは席を立ち、ヨロシ＝サンと並んで、吹き抜けになっている十二階を見下ろした。十二階はアリーナ状になっており、それをぐるりと見下ろす十三階のガラス窓は、すべて強靭な防弾ガラス製となっている。</item>
-        <item>「あれです」
-　ヨロシ＝サンが指差す先には、黒いスーツに身を包んだ十数人のクローンヤクザが立ち、ボーリングのピンのように整然と並んでいた。
-　表向きは江戸時代から続く風邪薬メーカー、ヨロシ＝サン製薬は、数々の生体兵器を裏社会に流通させる死の武器商人でもあるのだ。</item>
-        <item>「ライオンを放せ」ラオモトがブザーボタンを押しながら命令する。
-　ゲイシャの描かれた巨大な障子戸が開き、中からメキシコ産の凶悪なライオンが姿を現すと、たちまちヤクザたちに飛び掛った！
-　並の人間なら50人がかりでも殺せない、恐るべき猛獣だ。</item>
-        <item>だがクローンヤクザは、全員まったく同じ動きで左の胸元からチャカを抜き、一糸乱れぬ射撃でライオンをあの世に送った。それから、まったく同じ動きでチャカを仕舞い、まったく同じ動きで乱れた髪を直し、まったく同じ動きで床にタンを吐いた。ナムアミダブツ！　何という統率力か！</item>
-        <item>「ムハハハハハ！」ラオモトは哄笑する。
-「敵はもうライオンでも、ケーサツでも、スモトリでも同じことです」ヨロシ＝サンの営業も、ネズミのような笑い声を漏らしながら自慢げに語った。「クローンならではの統一感です。Y-12は無敵です」しかし彼の笑いもここまでだった。</item>
-        <item>「ではヒュージシュリケンを放せ」ラオモトがブザーを押した。
-何だって？　ヨロシ＝サンの顔が曇る。失禁し、営業スーツの前がほんのり湿る。
-ゲイシャの描かれた障子戸が開き、中からバンディットに良く似たニンジャが姿を現した。直径2メートル近い巨大スリケンを紐で背負っているのが特徴だ。</item>
-        <item>クローンヤクザが身構える前に、ヒュージシュリケンは想像を絶するほどの素早い動きと力で、背中の巨大スリケンを投げた。ヤクザたちは一斉にチャカへ手を伸ばす。だが間に合わない！　クローンヤクザは、全員同時に恐怖の悲鳴を上げた。</item>
-        <item>セラミック製の巨大スリケンはブーメランのような軌道を描き、ボーリングのピンのように並んだヤクザ全員の首を切り飛ばしながら、再び持ち主であるヒュージシュリケンの手元に戻った。首を失ったヤクザたちは、糸の切れた操り人形のように、全員一斉に後ろへと倒れた。</item>
-        <item>「ムハハハハハ！　ストライク！　ムッハハハハハハ！」ラオモトはセンスを広げて大笑いしていた。彼は弱者が虫けらのように死ぬのを見るのが何よりも好きなのだ。</item>
-        <item>「ラオモト＝サン、申し訳ありません」ヨロシ＝サンの営業は恐怖のあまり床に倒れて、喘息を起こしたマグロのように口をぱくぱくとさせていた。「責任をとってセプクします」</item>
-        <item>「いや、いい」ラオモトはセンスをぴしゃりと閉じる。「ヘータイがニンジャよりも強ければ、いつ寝首をかかれるかわからんではないか。ヨロシ＝サンよ、今回も良い仕事だった」
-「毎度ありがとうございます」ヨロシ＝サンの営業は息も絶え絶えに立ち上がり、前をハンカチで拭いた。</item>
-        <item>「しかし、貴様はワシのオフィスの床を汚したため、生かしてはおかん」ラオモトがボタンを押すと、ヨロシ＝サンの営業の足元が開き、人食いズワイガニの群がるプールへと真っ逆さまに転落した。営業がカニに手足を喰われるのを見下ろしながら、ラオモト・カンはこの日最高の笑い声をあげる。</item>
-        <item>「ヒュージシュリケンよ、アッパレだ」ラオモトがブザーを押してアリーナに声を轟かせる。「今、ワシには２つの敵がおる。ニンジャスレイヤーとドラゴンドージョーだ」</item>
-        <item>「ニンジャスレイヤーなる鼠には、バンディットを差し向けた。お前はアースクエイクと組み、ドージョーに放火してくるのだ」ラオモトが血も涙もない命令を下す。
-「ヨロコンデー！」ヒュージシュリケンはバク転を打ちながら、障子戸の向こうに消えた。（「サプライズド・ドージョー」に続く）</item>
-        <item>◆少しの◆
-大変お世話になっております。本日は２２時頃から手動による短いな再放送を予定しております。どうぞよろしくお願いいたします。
-◆道場◆ #njslyr #njslyr7r</item>
-        <item>◆◆◆◆◆◆◆◆◆◆◆◆</item>
-        <item>第１巻「ネオサイタマ炎上」より　「ネオヤクザ・フォー・セール」</item>
-        <item>ネオサイタマに聳える悪の根城、トコロザワ・ピラー十三階。ここはラオモト・カンのダミー会社、ネコソギ・ファンドの事務所であり、闇のニンジャ組織「ソウカイヤ」のトレーニング・グラウンドでもある。窓の外では、空からの攻撃を防ぐため、数十基のサーチライトが慌しく夜空を切り裂いていた。　１</item>
-        <item>ラオモトは長さ十メートルもある高級一枚板のデスクに座り、葉巻をふかす。今日の彼の装束は戦闘服ではない。ヨロシサン製薬との商談があるからだ。ビジネス用のアルマーニスーツ上下に、鎖頭巾、黄金メンポという出で立ちである。それでも、全身から殺気がみなぎっていた。　2</item>
-        <item>「ラオモト＝サン、新型のクローンヤクザ、Y-12ができました」ヨロシサン製薬の営業が、汗をふきながらしどろもどろで説明する。数億というカネが動く一大取引だ。ラオモトの機嫌を取るために、大トロ粉末を30キログラムも持参している。　3</item>
-        <item>「見てみよう、ヨロシ＝サン。ワシを落胆させないでくれよ」 ラオモトは席を立ち、ヨロシサン製薬の営業と並んで、吹き抜けになっている十二階を見下ろした。十二階はアリーナ状になっており、それをぐるりと見下ろす十三階のガラス窓は、全てが強靭な防弾ガラス製となっている。　4</item>
-        <item>「あれです」 ヨロシ＝サンが指差す先には、黒いスーツに身を包んだ十数人のクローンヤクザが立ち、ボーリングのピンめいて整然と並んでいた。ヨロシサン製薬は、表向きは江戸時代から続く風邪薬メーカーである。だがその一方で、数々の生体兵器を裏社会に流通させる死の武器商人でもあるのだ。　5</item>
-        <item>「……ライオンを放せ」ラオモトはブザーボタンを押しながら命令する。ゲイシャの描かれた巨大なショウジ戸が開き、中からメキシコ産の凶悪なライオンが姿を現すと、たちまちクローンヤクザたちに飛び掛った！並の人間ならば50人がかりでも殺せない、恐るべき猛獣だ！　6</item>
-        <item>だがクローンヤクザは、全員まったく同じ動きで左の胸元からチャカを抜き、一糸乱れぬ射撃でライオンをあの世に送った。それから、まったく同じ動きでチャカを仕舞い、まったく同じ動きで乱れた髪を直し、まったく同じ動きで床にタンを吐いたのである。ナムアミダブツ！何たる統率力か！　7</item>
-        <item>「ムハハハハハ！」ラオモトは哄笑する。 「敵はもうライオンでも、ケーサツでも、スモトリでも同じことです！」ヨロシサンの営業は、ネズミじみた笑い声を漏らしながら自慢げに語った。「クローンならではの統一感です！Y-12は無敵です！」しかし、彼の笑いもここまでだった。　8</item>
-        <item>「ではヒュージシュリケンを放せ」ラオモトがブザーを押した。何だって？ヨロシ＝サンの顔が曇る。失禁し、営業スーツの前がほんのり湿る。ゲイシャの描かれたショウジ戸が開き、中からバンディットに良く似たニンジャが姿を現した。直径2メートル近い巨大スリケンを紐で背負っているのが特徴だ。　9</item>
-        <item>クローンヤクザが身構える前に、ヒュージシュリケンは想像を絶するほどの素早い動きと力で、背中の巨大スリケンを投げた。ヤクザたちは一斉にチャカへと手を伸ばす。だが間に合わない！クローンヤクザは、全員同時に恐怖の悲鳴を上げた！　10</item>
-        <item>セラミック製の巨大スリケンはブーメランめいた軌跡を描き、ボーリングのピンのように並んだクローンヤクザ全員の首を切り飛ばしながら、再び持ち主であるヒュージシュリケンの手元に戻った。首を失ったヤクザたちは、糸の切れた操り人形のように、全員一斉に後ろへと倒れる！　11</item>
-        <item>「ムハハハハハ！ストライク！ムッハハハハハハ！」ラオモトはセンスを広げて大笑いしていた。彼は弱者が虫けらのように死ぬのを見るのが、何よりも好きなのだ。　12</item>
-        <item>「……ラオモト＝サン、も、申し訳ありません……」ヨロシサンの営業は恐怖のあまり床に倒れ、喘息を起こしたマグロのように口をぱくぱくとさせていた。「……責任をとってセプクします」　13</item>
-        <item>「いや、いい」ラオモトはセンスをぴしゃりと閉じる「兵隊がニンジャよりも強ければ、いつ寝首をかかれるかわからんではないか。ヨロシ＝サンよ、今回も良い仕事であった」 「毎度ありがとうございます」ヨロシサンの営業は息も絶え絶えに立ち上がり、前をハンカチで拭いた。　14</item>
-        <item>「しかし、貴様はワシのオフィスの床を汚したため、生かしてはおかん」ラオモトは不意にボタン押す！すると営業の足元が開き、人食いズワイガニの群がるプールへと真っ逆さまに転落した！ナムサン！営業がカニに手足を喰われるのを見下ろしながら、ラオモト・カンはこの日最高の笑い声をあげる！　15</item>
-        <item>「ヒュージシュリケンよ、アッパレだ」ラオモトがブザーを押してアリーナに声を轟かせる。「今、ワシには２つの敵がおる。ニンジャスレイヤーとドラゴン・ドージョーだ」　16</item>
-        <item>「ニンジャスレイヤーなる鼠には、バンディットを差し向けた。お前はアースクエイクと組み、ドージョーに放火してくるのだ」ラオモトが血も涙もない命令を下す。 「ヨロコンデー！」ヒュージシュリケンは連続バク転を打ちながら、ショウジ戸の向こうに消えた！　17</item>
-        <item>（「ネオヤクザ・フォー・セール」終わり　「サプライズド・ドージョー」に続く）</item>
-        <item>■マディソンおばあちゃん■１■ 『……はい、これで「ネオヤクザ・フォー・セール」は終わりだ。ライオン怖いねえ！クローンヤクザも怖いねえ！常人がヤクザやライオンと１対１で戦ったら、どうあがいたって勝ち目はないよ。でも、ニンジャはもっと怖い！これはね、一種の食物連鎖なのよ！』■知恵■</item>
-        <item>■マディソンおばあちゃん■２■ 『……ア？そこ、何か言ったかい！？随分と短い話だって！？……フェーフェーフェー、そりゃそうさ、この話は最初期に書かれたもので、しかも「サプライズド・ドージョー」のプロローグみたいなモンだからねえ。こっちも、近日再放送予定だよ。楽しみにね！』■知恵■</item>
-        <item>■マディソン■３■ 『ワッツ？ラオモトはニンジャなのに、なんでニンジャ装束を着てないのかって？そりゃあね、誰も彼も四六時中ニンジャ装束着てたらニンジャだってバレるじゃないの！あれは一種の、戦闘服みたいなモノなのよ。あたしゃニンジャじゃないから本当のとこは解ンないけどね！』■知恵■</item>
-        <item>■マディソン■４（終）■コラッ！アタシが重篤ニンジャヘッズだなんて、誰が言ったんだい！アタシはねえ、むかし本放送を見たことがあるだけの、善良ないち視聴者だよ！しかも大筋は忘れてるときたもんだ！今日はシンプルな話だったから、シンプルに終わるよ！じゃあね、さっさと寝ちまいな！■知恵■</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃１</item>
+        <item>世界全土を電子ネットワークが覆いつくし、サイバネティック技術が普遍化した未来。宇宙殖民など稚気じみた夢。人々は灰色のメガロシティに棲み、夜な夜なサイバースペースへ逃避する。政府よりも力を持つメガコーポ群が、国家を背後から操作する。ここはネオサイタマ。鎖国体制を敷く日本の中心地だ。</item>
+        <item>一週間前から重金属酸性雨は止み、灰色の雪へと変わっていた。マルノウチ・スゴイタカイ・ビルの最上階展望エリアでは、カチグミたちがトクリを傾けあっている。ビル街には「コケシコタツ」「魅力的な」「少し高いが」などとショドーされた垂れ幕が下がり、街路を行き交う人々の購買意欲を煽っていた。</item>
+        <item>ネオンサインの洪水を睥睨するように、ヨロシサン製薬のコケシツェッペリンが威圧的に空を飛び、旅客機誘導用ホロトリイ・コリドーの横で大きな旋回を行った。「ビョウキ」「トシヨリ」「ヨロシサン」と流れる無表情なカタカナを、その下腹に抱えた巨大液晶モニタに明滅させながら。</item>
+        <item>別な二機のマグロツェッペリンは、NSTV社のものだ。片方の大型液晶モニタでは、オイランドロイド・デュオ「ネコネコカワイイ」の２人が、サイバーサングラスで目元を隠しながら歌っている。もう一機のモニタでは、彼女たち二人を模した廉価版オイランドロイドのコマーシャルが流れていた。</item>
+        <item>アンドロイド技術の実用化により真っ先に発展したのは、医療でも介護でも軍事でもなく、大衆の脳を麻痺状態に陥らせ狡猾なエクスプロイテーションを続ける、ショウビズ産業と性産業であった。彼女らの出現によって数十万人単位の女子が夢を諦め、オイラン専門学校への転校を余儀なくされたという。</item>
+        <item>スゴイタカイ・ビル前の広場では、ネコネコカワイイによる突発ライブの噂を聞きつけた暴徒的親衛隊「NERDZ」たちが、バリキドリンクを手に一足早くモッシュピットを作っていた。すでに数十人単位の死傷者が出ている模様だ。上空からは、ネオサイタマ市警の漢字サーチライトも照らされている。</item>
+        <item>広場の片隅にひっそりと立てられたハカイシ型慰霊碑も暴徒の波に呑まれ、興奮したNERDZの１人が、その上で奇声を発しがら何度もジャンプを繰り返していた。
+本来ならば今夜、ここでネオサイタマ市警による厳かな慰霊式典が行われる手筈だったが、数日前に突然キャンセルされたのだ。</item>
+        <item>その遥か上。下界の喧騒から隔絶された、スゴイタカイ・ビルの屋上。四方に張り出した強化御影石製シャチホコ・ガーゴイルのひとつに、およそ人とは思えぬ異様な影が、爪先立ちで微動だにせず座り込んでいる。首に巻いた長いマフラーのようなぼろ布が、激しい風を受けて斜め後方へと吹き流されていた。</item>
+        <item>赤黒いニンジャ装束で身を包んだその男の口元は、「忍」「殺」と彫られた鋼鉄メンポで隠されている。彼の冷たく刺すような視線は、見渡す限り果てしなく続くメガロシティへと注がれていた。
+彼は耳を澄まし、風の流れを感じ、ニンジャの気配を探る。妻子の墓前に備えるための、新たなセンコを求めて。</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃１終わり　＃２へ続く</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃２</item>
+        <item>ブンブンブーンブンブンブーン、ブンブンブーンブブーン。陰鬱な電子ベース音でジングルベルが鳴り響く。オハギ屋台の前で、リアルヤクザ同士が縄張りを争う。通りに面したIRCモテルの四階では、ザゼン・ドリンクでキメたスゴイ級ハッカーが喧騒を見下ろして冷笑しながら、神に定時の崇拝を捧げる。</item>
+        <item>スゴイタカイ・ビルからいくらか離れた下界。ここには、マッポでさえも近寄らぬ猥雑な暗黒街、ツチノコ・ストリートが広がり、無数のネオンサインと薄汚いマケグミで溢れかえっている。まともなニューロンを持つ市民ならば、高層ビル郡を繋ぐ空中トリイ回廊か、地下ショッピングモールを歩くだろう。</item>
+        <item>あえてこのような場所を歩むのは、下層労働者か犯罪者、あるいは追っ手をまこうする者だけだ。つば広の防塵ハットを被ったその男は、上等な黒いケブラー・トレンチコートの襟を立てて顔を隠し、ネオン街を歩いていた。時折、胸元からペットのミニバイオ水牛が顔を出し、不安そうな顔で白い息を吐く。</item>
+        <item>職を失ったリアルヤクザがケジメ・ショーを行っている輪の横を、男は足早に通り抜けた。右手では、檻に入ったバイオスモトリが軒先に吊るされ、キモノ姿のモヒカン女たちがショック・ヌンチャクやサスマタでこれをいたぶっている。「武田信玄」「安らぎ」と書かれたPVCノボリが無表情に揺れていた。</item>
+        <item>突然IRCモテルの窓が割れ、奇声とともに人が落下してきた。「ペケロッパ！　ペケロッパ！」ペケロッパ・カルトのハッカーだ。頭から生えた何十本ものLANケーブルを振り乱し、FM音源めいた合成音声で叫び、のたうつ。ニューロンを焼かれたのだ。
+ミニ水牛がコートの中で震え、静かに失禁した。</item>
+        <item>男はこれらの粗悪で猥雑なものから目を遠ざけるように、コートの襟を手でさらに高くした。サイバーサングラスで男の顔はほとんど見えないが、弛んだ頬と深い皺が本物ならば、五十は超えていよう。身につけた品はどれも、彼の地位がかなり高いものか、あるいは直前まで高いものであったことを窺わせる。</item>
+        <item>危険なポンビキエリアや金魚フライ屋台の間を抜けながら、男は時折振り返り、追っ手の有無を確かめる。気配無し。
+空中を死体のように漂うマグロツェッペリンの映像は、堅苦しいオスモウ・ニュースへと切り変わり、ネオサイタマ市警評議員の一人が自宅で死体として発見されたことを伝えていた。</item>
+        <item>「死因不明」「凶器無し」「セプクの可能性も」……キャスターの口に合わせて字幕が示威的に強調される。男が空を見上げると、別のマグロツェッペリンがニュースを覆い隠し、オイランドロイド・アイドルが両足をWの字にして飛ぶ、印象深いネコネコカワイイ・ジャンプの映像をリレイするところだった。</item>
+        <item>やがて男の赤外線サイバーグラスは、灯篭で入口を封鎖された暗い路地を目ざとく発見。雑踏の波からするりと抜け、灯篭を巧みに越えて細い路地を進む。上出来だ、誰も気付いていない。右のビルの五階、鉄格子の付いた窓から、ボンボリ・タングステン灯の明滅が漏れ、壊れたネオンから青い火花が散った。</item>
+        <item>バチバチというセンコ花火のような火花に照らされ、極太ミンチョ体で「悪い政府だ」「マッポはセプク」「インガオホー」と書かれた反政府団体のネオハイクが浮かび上がる。コンクリートに転がるUNIXや旧型オイランドロイドの残骸やネズミの死体などを踏みながら、男はさらなる暗がりを求めて進む。</item>
+        <item>角を曲がると、白塗りの壁と灯篭が行く手を阻んだ。デッド・エンドだ。ボキリ、という骨の折れる嫌な感触が、ブーツ越しにニューロンに伝わった。何かの死体を踏んだのかもしれないし、あるいは豚足かもしれない。ミニバイオ水牛が本能的な恐怖を感じ、顔を出して不安そうにモーモーと鳴く。その時。</item>
+        <item>「ドーモ。ホタカ＝サン」背後から不吉な声が聞こえた。
+ホタカと呼ばれた男は、電気ショックを浴びたかのように体をびくつかせてから、ぎこちなく後ろを振り向いた。ボンボリ・タングステン灯が明滅し、火花が散ると、ニンジャらしき男のシルエットが浮かび上がった。</item>
+        <item>ホタカ＝サンは無言で左の袖をまくり、最新型のサイバネティック戦闘義手を露にした。黒漆塗りのテッコV７型の継ぎ目から、薄緑色のサイバー光が漏れる。ネツケを掴んで紐を引くと、幽玄な起動音とともに圧縮空気が排出される。狼狽したミニバイオ水牛がコートから飛び降り、闇の中に走り去った。</item>
+        <item>――――――――――</item>
+        <item>ニンジャスレイヤーがニンジャロープ伝いにその路地裏へと着地した時、すでにケブラー・トレンチコートの男は物言わぬ死体へと変わっていた。口の中には豚足が詰め込まれており、一見すると急いで豚足を食べようとした男の窒息死のようにも思える。</item>
+        <item>だが、ニンジャスレイヤーの鋭い観察眼は、男の首動脈が小型の投擲物によって破壊されているのを見逃さなかった。死因は失血死だ。……それもおそらく、ニンジャの。しかし、ニンジャソウルを残留させたスリケンやクナイ・ダートの類は、どこにも見当たらない。果たしていかなるトリックか？</item>
+        <item>ニンジャスレイヤーは身をかがめ、冷静にこの男の素性を探る。イソガバマワレ……手がかりを探すことが、最終的にはニンジャに辿り着くはずだ。左手の漆塗りテッコには、ネオサイタマ市警の金色のエンブレムが光っている。几帳面な男だったようで、帽子の裏にはホタカ・ナカナカと刺繍がなされていた。</item>
+        <item>そしてニンジャスレイヤーは、死後硬直で硬く握り締められたホタカ＝サンの右手に、ウグイス色のオリガミ・メールが小さく折りたたまれているのを抜け目なく発見した。
+「.....Wasshoi！」
+赤黒い影は左右の壁を交互にジャンプして駆け上り、再びネオサイタマの闇へと消えてゆく。</item>
+        <item>その三十分後、匿名通報を受けたネオサイタマ市警のマッポ部隊がツチノコ・ストリートの裏路地を封鎖した。度重なる夜勤と超過勤務でマグロのような目をした末端マッポたちは、マニュアルどおりに現場の指差確認を行い、ホタカ＝サンの口に詰め込まれている豚足に大いに注目した。</item>
+        <item>「首元に何か傷が…」
+若いマッポの一人がそれを指摘しようとした時、大きなオハギをくちゃくちゃと噛みながら、ツチノコ東地区担当のチーフマッポがぬうっと姿を現した。
+「転んだ時に何か刺さったんだろよ……おやおや、こりゃ、ホタカの爺さんじゃねえか。今日は要人がよく死ぬぜ。ゲエエップ！」</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃２終わり。　＃３へと続く。</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃３</item>
+        <item>三週間前。ネイサイタマ中枢に聳える日本最大のビル、カスミガセキ・ジグラット。
+ここは政・官・民が高度な癒着を遂げた、人類史上稀に見る巨大複合施設であり、今なお増築が進んでいる。現在の最上階は７００だが、不吉を忌み嫌う日本人の慣習により、４や９の数字が含まれる階や部屋は存在しない。</item>
+        <item>601階から上にはメガコーポのヘッドオフィス群が、301階から600階には国会議事堂などの行政施設が、51階から300階には市警本部などの官庁施設が、１階から50階にはネオサイタマ市役所が入っている。
+そして今、恐るべき謀略をはらんだ密議が267階のオスモウ会議室で行われていた。</item>
+        <item>「クローンマッポを数万体規模で導入だと？」ネオサイタマ市警評議会の一員であるホタカ・ナカナカは、たるんだ頬を怒りで紅潮させながら、ドヒョウ・リングの上で立ち上がった。厳かにライトアップされたドヒョウ・リングと無数のショウジ戸以外何も存在しない広大な空間に、ホタカの怒声が響き渡る。</item>
+        <item>「アイエエエ……そんなに興奮しないでください」ヨロシサン製薬のバイオ営業部門、タカハシ＝サンは小さく失禁した。
+「そうだホタカ＝サン、落ち着いて」パンキドー９段のイノウエ＝サンが、野太い腕でホタカの肩を抱き、着席させる。彼はネオサイタマ評議会における数少ないホタカの同志の一人だ。</item>
+        <item>ホタカは渋々着席し、参加者の顔を見渡す。合計１２人いる評議員のうち９人は、ホタカからわざとらしく目を逸らし、ドヒョウ中央に映し出される３Ｄディスプレイの資料を眺めながら、茶をすすりつつ大きく頷いていた。
+「「「連中め、オハギでも積まれたか…」」」と、ホタカは心の中でひとりごちる。</item>
+        <item>右隣に座るイノウエ＝サンは、言葉では冷静さを保っているが、今にもパンキ・パンチをくり出しそうな危うさに満ちている。左隣ではホタカ＝サンのもう一人の同志、最高齢のノボセ＝サンが無言で腕を組み、右眼を閉じていた。末端マッポ時代に失われた彼の左目は、黒い革眼帯によって覆い隠されている。</item>
+        <item>ディスプレイを挟んだ対面には、ヨロシサン製薬を筆頭とするバイオ関連企業三社の代表が座っていた。その中には、紫のスーツに身を包み顔を鎖頭巾で隠した男の姿もある。バイオマッポ化計画の出資者代表、ネコソギ・ファンド社のラオモトＣＥＯだ。彼のカタナのような眼光が、場の空気を支配していた。</item>
+        <item>ラオモトは手元のオリガミ・メールに筆で何事かをしたため、ヨロシサンの営業に手渡す。噂によると、このラオモト・カンなる男は、ネオサイタマの暗黒犯罪社会と深い関わりを持っているらしいが、その見事な証拠隠滅の手際ゆえ、未だネオサイタマ市警はネコソギ・ファンド社の非合法性を掴めずにいた。</item>
+        <item>「皆さん、一年前のクリスマスを思い出してください」オリガミを読んだ営業は立ち上がり、息を吹き返したマグロのようにプレゼンを再開する「大勢のマッポ＝サンが、反政府組織の起こしたマルノウチ抗争の犠牲となりました。この教訓を忘れてはいけません。遺族補償に、どれだけカネを使いましたか？」</item>
+        <item>ドヒョウ上の３Ｄディスプレイに、毛筆フォントでかなりのケタの金額が躍る。ラオモトにあらかじめ買収されていたネオサイタマ市警評議員の数名が、頭を左右に振りながら、口々に「おお、ナムサン……」「ナムアミダブツ……」などといった落胆の言葉を、わざとらしい溜息とともに吐いた。</item>
+        <item>「しかし、クローンマッポなら、こうです！」ヨロシサンの営業が指をぱちんと鳴らすと、３Ｄディスプレイの数字はゼロに変わった。「しかも、クローンマッポは賄賂で腐敗することはありません！　職務時間中にＩＲＣをすることもありません！」
+買収された評議員たちは、大きく頷きながら拍手した。</item>
+        <item>これに対し、ノボセ老がようやく重い口を開く。「クローンマッポ大量導入……それだけは、どうかご勘弁いただきたい。すげ替えられた数万人のリアルマッポが路頭に迷い、ヤクザかハッカーになるでしょう。コストが問題ならば、われわれマッポは手当て無しで、超過勤務でも深夜勤務でも何でもやります」</item>
+        <item>「そうだ、その通りだ！」ホタカ＝サンとイノウエ＝サンが合いの手を入れ、反対陣営よりも威勢の良い声で応戦する。モノイイ・タクティクスだ。ヨロシサン陣営と買収された評議員たちは、これに対抗すべくあれこれと意見を述べたが、三人の男たちの誰かが常に反対意見を述べ、表決の時を先送りにした。</item>
+        <item>「イヨオーッ！」という電子音声が館内に響き、五時を告げる。３Ｄディスプレイの映像は「明日もヨロシサン」と書かれたヨロシサン製薬のＣＭに切り変わった。今日の会議は終了だ。高潔な三人の男たちによって、クローンマッポ大量導入という暴挙は避けられた。ヨロシサン陣営が不服そうに引き上げる。</item>
+        <item>決着がついたわけではない。３週間後のクリスマスイブに、追加会議が行われるだろう。
+「つまり、３週間後に我々３人のうち１人でも生き残っていれば…」と、イノウエは冗談めかして言う「来年度の予算編成には間に合わない。連中の敗北だ」。
+「物騒だな」とホタカ「だが用心に越したことは無い」。</item>
+        <item>－－－－－－－－－－－－－－</item>
+        <item>その三週間後。イノウエは自宅で、ホタカはツチノコ・ストリートの路地裏で、それぞれ物言わぬ死体へと変わったのだ。
+しかし凶器は発見されず、有力な犯人目撃情報もない。イノウエの死因はパンキドーのトレーニング中の転倒、ホタカの死因は豚足を急いで食べようとした後転倒、と報道されていた。</item>
+        <item>深夜０時。雪がしんしんと降り積もり始めた。
+同志２人の死を知ったノボセは、高層マンションの屋上に築かれた和風邸宅に篭り、精神統一のためにショドーを行っていた。茶室の軒先には脱出用のヘリが置かれ、また屋上階全体には、信頼できる腕っこきのマッポやデッカーが３０人あまり配備されている。</item>
+        <item>不意に、ショウジ戸の向こうから声が聞こえた。「お父さんお母さん、見て！　ネコネコカワイイ！」孫娘のムギコだ。五歳と幼いながらに、張り詰めた雰囲気を感じ、寝つけぬのだろう。ムギコが窓を開けて指差す先には、マグロツェッペリンが緑と赤のＬＥＤライトを瞬かせながら、すぐ近くを飛んでいた。</item>
+        <item>孫娘の声を聞いたノボセは、スズリをする手を止める。「ナムサ」と途中までショドーされた和紙を丸めて捨てた。心が乱れたのだ。「「「刺客の狙いは、恐らくわし一人」」」。沈思黙考の末に眼を開き、赤いオリガミの裏に細筆で何かをしたためてから、彼は七本の指で神秘的な鶴を折り上げた。タツジン！</item>
+        <item>「私も大きくなったらネコネコカワイイになりたい！」ムギコは狂ったようにネコネコカワイイ・ジャンプを繰り返す。両親が神妙な顔でなだめるも、効果が無い。「ムギコや」ショウジ戸を開けて茶室から出てきたノボセ老は、優しさの中に厳しさを湛えた顔で言った「なれないものもあるんだ。諦めなさい」</item>
+        <item>「お父さん、スミマセン」ノボセの息子が礼儀正しく頭を下げた。彼は父親の地位を使うことを嫌ったため、一介のサラリマンに甘んじている。
+「いいんだ、わしのせいでこんな事になってしまったんだからな」とノボセ「それより、ムギコを連れて遊びに行ってこい。今夜は楽しいクリスマス・イブだろう」</item>
+        <item>「いいの？」と、ムギコの顔が明るくなる。
+「いいんですか、父さん？」
+「信頼できるデッカーを護衛につけるから行ってこい。お前たちがいると、ショドーが乱れるゆえ」
+息子夫婦がいそいそと身支度を整えている間に、ノボセ老は孫娘に鶴のオリガミ・メールをそっと渡して、また茶室に戻った。</item>
+        <item>「クリスマス・イブ……」タタミに正座したノボセ老は、そうショドーしながら、一年前の悪夢を回想していた。出来ることならば、死んでいった市民やマッポのために、慰霊式典をやってやりたかった。だが、この非常事態ではそうもいかない。「ゴウランガ……」気がつくと弔いの言葉をショドーしていた。</item>
+        <item>「駄目だ……！」ノボセ老はまた立ち上がり、それらのショドーを長い箸で囲炉裏にくべて燃やした。
+舞い上がった火の粉が薄暗い三十畳の茶室を仄かに照らし、茶壷や、竹や、現役時代のケンドー機動服や、ネオサイタマ市警のマッポ数千名が整列した壮大な俯瞰図の墨絵ビヨンボなどを浮かび上がらせた。</item>
+        <item>ノボセ老は４本しかない右の指でスズリをする。彼はデッカー時代に１本、課長時代に２本の指をケジメで失った。ケジメやセプクはヤクザの風習と思われがちだが、高位の者なら誰もが直面する試練だ。
+「サツバツ…」ノボセ老がそう呟きながらショドーすると、祖父の優しい目は消え、鋭い眼光が宿った。</item>
+        <item>と、まさにその時！　マグロツェッペリンから大きく跳躍した灰色装束のニンジャが、ノボセ邸のカワラ屋根の上に音も無く着地したのであった！　
+そのニンジャの背には、オムラ・インダストリ製の小型急速冷凍装置が背負われ、そこから両手の裾の下へと細いホースが伸びている。</item>
+        <item>奥歯に埋めこまれたスイッチを押すと、ホースの先から冷却空気が放出される。これをニンジャ握力によって高速圧縮することにより、ダイヤモンドカッターにも匹敵する切れ味の氷スリケンが作り出されるのだ！　この者こそは、ラオモトが放ったソウカイ・シックスゲイツの刺客、フロストバイトであった！</item>
+        <item>「「「俺の氷スリケンは射出後数秒で溶けるため、殺人に用いられた凶器は絶対に発見できない！　あばよ、爺さん！　あの世でハイクを詠むがいい！　貴様の死因はショドー中の転倒死だ！　サヨナラ！」」」
+茶室の上のカワラをそっと外したフロストバイトは、氷スリケンを生み出しながらほくそ笑んだ。</item>
+        <item>「Wasshoi!」
+遙か上空を飛んでいたコケシツェッペリンから、赤黒い影が前方回転しながら舞い降りた。それは立膝状態でカワラ屋根の上に着地してから、ゆっくりと身を起こし直立不動の姿勢を取る。両者の間合いは10メートル弱。
+「ドーモ、フロストバイト＝サン。ニンジャスレイヤーです」</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃３　終わり　＃４へ続く</item>
+        <item>（親愛なる読者の皆さんへ。昨日の連載分に致命的な誤訳がありました。「ネイサイタマ」は「ネオサイタマ」が、また「３週間後のクリスマスイブに、追加会議が…」は「３週間後のクリスマスに、追加会議が…」がそれぞれ正しいです。翻訳担当者は今朝自主的にケジメしましたので、ご安心ください。）</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃４</item>
+        <item>「……ドーモ」フロストバイトは舌打ちしながら立ち上がり、胸の前で拳と掌を合わせて小さくオジギした。
+「「「こいつがニンジャ・スレイヤー＝サンか。俺の手の内はまだ知られていない筈。だが俺のインプラント記憶素子内には、ソウカイネットで調べた戦闘データがある。お前は射撃戦に弱い！」」」</item>
+        <item>灰色と赤黒。二人のニンジャはカラテの構えで相手の出方を窺いながら、防弾カワラ屋根の上を同心円状に横歩きし、間合いをはかった。不気味な静寂。上空を舞うコケシツェッペリンのLEDモニタに流れていた文字が「ヨロシサン」から「いつもお世話になっています」に変わった時、二者は同時に動いた。</item>
+        <item>フロストバイトは右奥歯のスイッチを噛み、両掌をＸの字に掌握して作った氷スリケンを、イナズマのような素早さで投げつける！　
+「イヤーッ！」
+高速回転する芝刈り機のような甲高い音を立てて、普通のスリケンよりもギザギザの多い凶悪な氷スリケンがニンジャスレイヤーに迫った！　ナムサン！</item>
+        <item>「イヤーッ！」
+ニンジャスレイヤーもほぼ同時にスリケンを投げていた。両者のスリケンが激突する！　だが、何ということだ、普通のスリケンよりもギザギザが多いフロストバイトの氷スリケンは、ニンジャスレイヤーのスリケンを切断したうえに、その勢いを全く衰えさせることなく飛来したのだ！</item>
+        <item>鋭いニンジャ反射神経により、ニンジャスレイヤーは自らの左手の人差し指と中指を突き立たせた。スリケンを最小限の動きでかわす方法は、二本の指でスリケン中心部を回転と垂直方向に挟み、それを後方へ受け流すことである。敵の力を受け止めるのではなく受け流す……これこそがニンジャの世界なのだ！</item>
+        <item>ニンジャスレイヤーは蝿を挟む箸のように精密な動きで二本の指先を動かし、氷スリケンの中心部を挟み、受け流す……いや、受け流せない！　何故だ？
+おお、ナムアミダブツ！　氷スリケンは温度差によって指先に貼りつき、チェーンソーのごとく回転して、彼の指間を切り裂いたのだ！
+「グワーッ！」</item>
+        <item>「氷スリケンは暗殺用だけではない！　俺はこの技で、何人ものニンジャの手を破壊してきたのだ！　ニンジャスレイヤー＝サン、貴様のようにスリケン受け流しに絶対の自信を持っているような、気取ったいけすかねえ野郎どもをなーッ！」
+フロストバイトは勝利を確信し、さらなる氷スリケンを射出した！</item>
+        <item>「イヤーッ！」ニンジャスレイヤーは紙一重でブリッジを決め、両首の頚動脈を狙って放たれた氷スリケンを回避する。タツジン！　それと同時に、左手を切り裂く氷スリケンを防弾カワラに叩きつけて、どうにかこれを粉砕した。赤黒い血飛沫がスプレー状に飛び散るが、間一髪ケジメだけは免れたようだ。</item>
+        <item>だが、これで終わりではない！
+「死ね！　ニンジャスレイヤー＝サン！　死ね！　イヤーッ！」
+フロストバイトは両手を最新型万札偽造機のように小刻みに動かし、驚くべき速さで氷スリケンを生み出しては、１秒に３発の割合でこれを射出してきたのだ！</item>
+        <item>「イヤーッ！」
+ニンジャスレイヤーはそのまま高速ネックスプリングで体を起こしてから、華麗なタイドー・バックフリップを三回決め、股間を狙って放たれた氷スリケンをすべて紙一重で回避する。ジゴクめいた冷気が空気を切り裂きながら、頬の横わずか数ミリの場所を飛んでいった。スゴイ！</item>
+        <item>バックフリップから体を捻ったニンジャスレイヤーは、屋根の端に置かれたカエル・ガーゴイルの上に着地し、さらに間髪入れずにこの足場を蹴って、フロストバイトの背後に向かって矢のように鋭い角度でサマーソルト・ジャンプを決めた。空中で体を制御し、右手で恐るべきカラテチョップの構えを取る！</item>
+        <item>「イヤーッ！」
+チョップが炸裂しようとしたその時！　フロストバイトは胸の前で手をXの字に交差させた後、手首のホースを背後に向け、左奥歯のスイッチを噛んだ。「「「引っかかったな！」」」マイナス220℃の液体と蒸気が、上空のニンジャスレイヤーめがけ噴射される！
+「グワーッ液化窒素！」</item>
+        <item>ゴウランガ！　ニンジャスレイヤーは空中で素早くドリルのように回転してジャンプの軌道を変え、液化窒素の直撃を免れた。直撃を受けていれば、全身が冷凍マグロのように冷たくなって即死していたであろう。
+しかし、この緊急回避のために、彼は体勢をいちじるしく崩してしまってもいたのだ。ウカツ！</item>
+        <item>「あばよ、ニンジャスレイヤー＝サン！　貴様の死因はバク転中の不運な転倒死だーッ！」
+間違いなくキンボシ・オオキイ！　フロストバイトはラオモト＝サンから渡されるであろう臨時ボーナスに思いを馳せながら、必殺の氷クナイ・ダートをニンジャスレイヤーの喉元に向けて投げた！　ナムアミダブツ！</item>
+        <item>だが待て！　夜よ、聞くがいい！　フロストバイトがダートを投擲する一瞬前、ウシミツ・アワーを告げる不吉な鐘が、ネオサイタマ中のジンジャ・カテドラルで突き鳴らされたのを！　液化窒素煙幕の中で立膝状態になっていたニンジャスレイヤーの右の黒目が紅く光り、センコのように細くなる！　ナラク！</item>
+        <item>「「「ヒッサツ！　間違いなく殺ったァーッ！」」」
+フロストバイトの投げた２本のダートが、ニンジャスレイヤーの眉間と股間に命中！　……と思われたその時、氷クナイ・ダートはニンジャスレイヤーの体を透過して背後の防弾カワラに当たり、灯篭に落ちるツララのごとく虚しく砕けたのだ。
+「え？」</item>
+        <item>フロストバイトが驚きのあまり白目を剥きながら見ていると、液化窒素煙幕の中にいたニンジャスレイヤーは霞のように掻き消えた。
+「え？」
+代わりに、いつの間にかニンジャスレイヤーの右眼があった場所から紅い光の軌跡が描かれ、自分の顔の周りを一周して、背後に回りこんでいた。
+「え？」</item>
+        <item>－－－－－－－－－－－－－</item>
+        <item>その頃、５メートル下の茶室ではカワラ屋根の上で発生した戦闘の騒音を聞きつけ、ノボセ老を守るべくマッポ軍団が集結していた。中央の囲炉裏横に、ノボセ老がカタナを構えて陣取る。彼のイアイドーは４２段。親指小指薬指さえあれば、七本指でも何ら支障なく人を殺せる。革眼帯がじっとりと汗ばんだ。</item>
+        <item>サイバーサングラスをかけた古参デッカー５人が、強化カーボン製のデッカーガンを構え、背中合わせでノボセ老を囲んでいた。
+サイバーIRC手術を受けている彼らは、耳の斜め後ろから生えたLANケーブルをデッカーガンと接続することにより、０コンマ１秒以下の反応速度で銃の論理トリガを引ける。</item>
+        <item>さらに茶室の四方を囲むように、２０人余りの精鋭マッポたちがサスマタやトンファーを構えながら、固唾を呑んで状況を見守っていた。
+デッカー１人の職務遂行能力は標準マッポ５０人分に匹敵するとされるため、少なく見積もっても、わずか三十畳のこの空間内に３００人近いマッポがいることになる。</item>
+        <item>ノボセ老は、カタナの柄と鞘に手を当てながら、イアイドーの構えでじっと耳を澄ましていた。先程まで聞こえていた音や絶叫が、ウシミツ・アワーの鐘の音以降、ふと止んだからだ。おかしい。まるでハカバのように静かだ。息を小さく吐いた、その時！
+CRAAAAAASH！！　屋根の一部が崩落した！</item>
+        <item>最初に動いたのは、室内の画像遷移情報をサイバーサングラスでスキャンし、遠隔ＩＲＣチャットで共有していたデッカーたちだった。両手に握ったデッカーガンの論理トリガが一斉に引かれる！
+サイバネティック義体すらも破壊する38口径の重金属弾頭弾が、黒い無機質な銃口から容赦なく撃ち出された！</item>
+        <item>BLAM！ BLAM！ BLAM！ 上から降ってきた灰色の人影が、デッカーガンの一斉射撃を受けて激しくダンスする！　首がない？　構うものか、排除せよ！　BLAM！ BLAM！ BLAM！ BLAM！　床に置かれたタヌキ茶壷の上に落下する頃、それはほぼ原型を留めぬ肉塊と化していた。</item>
+        <item>「……サ、サヨナラ！！」
+天井にぽっかりと空いた大穴の向こうから、悲痛な呻き声が聞こえたような気がした。その刹那、タヌキ茶壷に落下した首なし死体は、オムラ製急速冷却装置とともに爆発四散を遂げたのだ！</item>
+        <item>ケブラー・トレンチコートを翻し、咄嗟にノボセ老の盾となって立ちふさがっていたデッカーたちが頭を上げると、茶室内には血に染まった雪が降り始めていた。
+ノボセ老がキツネにつままれたような顔で大穴を見つめていると、そこからドラゴンの形に折られたウグイス色のオリガミメールが舞い降りた。</item>
+        <item>ノボセ老はそれを掴み、開く。中にはホタカ＝サンの肉筆と思われる滑らかな筆跡で、ホタカ、ノボセ、イノウエの三人の肖像画と名前、そして栄光あるネオサイタマ市警のエンブレムが。
+「……Wasshoi！」と低く小さな声が、ドクロの目玉のように真っ黒な大穴の向こうで聞こえたような気がした。</item>
+        <item>「こんなことがあろうものか、いや、あろうはずもない！」ノボセは、同志二人の死を報されても決して流さなかった涙を、その両眼からこぼした。眼帯に覆われ、最早用を成さないはずの眼からも。「笑わば笑え！　だがわしには、死したはずのホタカ＝サンが蘇り、わしを救ってくれたとしか思えんのだ！」</item>
+        <item>「ニンジャ……殺すべし……！」
+フジキドはすでにノボセ邸を遠く離れ、ニンジャロープとニンジャ脚力を巧みに使い分けながら、暗いビル街の屋上を駆け抜けていた。ナラクの暴走は振り払われ、その両眼は鋼鉄のように冷たい黒に戻っている。時折、その左手に結えた灰色のフロシキから血が滴り落ちた。</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃４終わり　＃５へと続く。</item>
+        <item>「メリークリスマス・ネオサイタマ」　＃５</item>
+        <item>スゴイタカイ・ビル前広場では、無機質なジングル音が未だ鳴り響いていた。人通りも多い。遠くにはバクチクの音も聞こえる。
+オーボン、クリスマス、ショーガツ……人生を楽しむことに引け目を感じがちなサラリマンたちも、重い宗教的意味を持つこの３日間だけは、次の日の仕事を忘れて行動するのだ。</item>
+        <item>イブの夜に開催されたネコネコカワイイの突発ライブは、違法薬物で興奮したNERDZの一部がステージに乱入し、２体のオイランドロイドを破壊したため、ケンドー機動隊の介入をもって後味悪く終了していた。だが、彼女らのボディや記憶はバックアップがある。今夜の惨劇は無かったことになるだろう。</item>
+        <item>ケンドー機動隊が撤退したビル前広場では、いつものようにスシ屋台やヤクザ・プッシャーらがどこからともなく現れ、抜け目のない商売を始めていた。黒いレインコートを着たスモトリめいた男が、直径５メートル程の赤漆色の耐酸性アンブレラを立て、その下に機材を並べて即席ラップブースを作っていた。</item>
+        <item>「ﾈｵｻｲﾀﾏｼﾃｨ、2ｸｰﾙﾘﾘｯｸ、ﾊﾞﾝｻﾞｲｲｪｰ、俺今ﾏｻﾆﾀﾁﾂｸｽ」彼もかつてはNSレディオのDJを務めていたが、テロ容疑で指名手配され解雇。今ではこうして、ゲリラ的に自主制作銀盤を売るのみだった。「腐ったｺﾉ世まさにﾏｯﾎﾟｰ、俺追われてる今byﾏｯﾎﾟ、ｲｪｰ」</item>
+        <item>「用済み使えねえｽﾓﾄﾘ、捨てて導入ﾊﾞｲｵｽﾓﾄﾘ、ﾘｮｳｺﾞｸｺﾛｼｱﾑ瀕死、まさにﾊｶｲｼ、怒る俺これ破壊ｾﾝとし、IRCﾁｬｯﾄ、ﾊｯ、油断しｺﾞﾊｯﾄ、ﾊｯ、見ろ結果ｺﾉざまｻｲﾊﾞｰ、ｻﾝｸﾞﾗｽかけ通う無人ｽｼﾊﾞｰ」
+タツジン！　カタナのように切れ味鋭いライム！</item>
+        <item>しかし、この危険すぎるオスモウ界批判が彼に破滅をもたらしたのだ。それに、もはや大衆は彼のことなど知らない。NSレディオでは、彼よりも若く従順なラッパーがDJを務めている。
+「ｲｪｰ、かつて俺目指した夢by ｼｺ・ﾄﾚｰﾆﾝｸﾞ、でもｺﾉ世界明日なきﾊﾞｲｼｺｰ・ﾏﾈｰｼﾞﾝｸﾞ」</item>
+        <item>……だが、胸を深くえぐるような２COOLリリックのライムも、またその隣で屋台ブースの境目争いをしているリアルヤクザとペケロッパ・カルトの小競り合いも、そしてベース音の無機質なジングルさえも届かない……下界のあらゆる喧騒から隔絶されたスゴイタカイ・ビルの屋上で、彼は独り佇んでいた。</item>
+        <item>ここはまるで、センニンが住む異世界。上空に光は一切無く、汚染されたイカスミの如き黒雲だけが分厚く垂れ込める。彼方には、人類の墓標を思わせるカスミガセキ・ジグラットの影が浮かび上がる。ニンジャスレイヤーことフジキド・ケンジは、屋上のシャチホコ・ガーゴイルの背に爪先立ちで座っていた。</item>
+        <item>ニンジャスレイヤーは微動だにしない。まるで石像だ。動く物といえば、マフラーのように斜め上方に吹き流される赤黒のぼろ布と、左手に握られたフロストバイトの生首のみ。ニンジャの首は、この巨大なハカイシに、すなわち自らの妻子の墓標に供えるセンコだ。
+彼の眼に、涙は無い。とうに枯れ果てた。</item>
+        <item>サツバツとした怒りを通り越し、もはや殺人マグロのごとき無表情と化したフジキドの眼には、一年前のクリスマスの惨劇が蘇っていた。
+忘れもしない、マルノウチ抗争の夜だ。
+あれは、スゴイタカイ・ビルの中階層にあった、中所得者層のためのセルフテンプラ・レストラン「ダイコクチョ」でのこと……</item>
+        <item>－－－－－－－－－－－－－－</item>
+        <item>「揚げた美味しさが」「テンプラ」「DIY」などと極太オスモウ・フォントで縦書きされたノボリが、広い店内でイナセに躍っている。クリスマス装飾の電子ボンボリが、年の瀬感を演出する。
+流石はクリスマス・イブ、満席だ。フジキド家の３人は、１ヶ月前から予約していたから、どうにか席を取れた。</item>
+        <item>「今年も、ここに来れて良かったわ」と、油の入ったカーボン土鍋を前に静かに笑う妻フユコ。「ニンジャだぞー！　ニンジャだぞー！」と、椅子の上で狂ったようにジャンプする幼いトチノキ。
+「やれやれ、トチノキはニンジャが大好きだな」とフジキド・ケンジ。「一体何処で、ニンジャなんて覚えた？」</item>
+        <item>「あなたが買ってきたヌンチャクじゃない」と、フユコは子を座らす。
+「去年のクリスマスに買ったやつか」「ずっとお気に入りなのよ。それで先日、初めて、箱の絵に気付いたの」
+「ニンジャー！」「静かになさいトチノキ、危ないわよ。…それに」その先は小声で言った「ニンジャなんて、いないのに」</item>
+        <item>「スリケン！　スリケン！」トチノキは大人しくなったと思った矢先、ピッチングマシーンのように両手をぐるぐると回した。
+「グワーッ！　ヤラレター！」ケンジは息子の無邪気さに応じ、心臓と喉にスリケンが刺さった真似をして、大げさに苦しんで見せた。
+「あなた、やめてくださいよ、恥ずかしい」</item>
+        <item>「ザッケンナコラー！」不意に、遠くから剣呑な怒声が聞こえた。
+「……あら、ヤクザかしら」とトチノキの肩を無意識に抱くフユコ。「店外だろう、大丈夫さ」とケンジ。
+店内を見渡すと、同じような境遇の家族連れや若いカップルや同僚サラリマンが、何事もなくテンプラに興じている。何も問題ない。</item>
+        <item>確かにネオサイタマは過酷な都市だ。生きるには辛い時代だ。だが、無茶な高望みをしなければ……メガコーポが煽る過剰消費の呪いを逃れ、バリキやズバリの罠にもはまらなければ……こうして幸せは手に入る。
+願わくば、トチノキにも賢く育って欲しい。
+沸き始めた油を見ながら、ケンジはそう考えた。</item>
+        <item>「ドーモ！　活きの良いのが入ってますよ」と、フェイク・イタマエが声をかけて去ってゆく。「ネタはあっちにあります、セルフでどうぞ！」
+「ドーモ」と２人は座ったままオジギする。
+「ねえ、ショーガツは？」「今日休みを取るだけでも精一杯だったんだ」「顔色、あまり良くないわよ。気をつけて」</item>
+        <item>「バクハツ・ジツ！　カブーン！」両親の会話をよそに、トチノキは史実を無視した劇画的で記号的なニンジャポーズを取って叫んでいた。
+夫婦は笑い、知らぬうちに固くなっていた表情を緩める。
+「いいかい、トチノキ、本物のニンジャってのはな…」
+…何を言おうとしたのだろう、もう覚えていない。</item>
+        <item>……ALAS！　まさに、その時だった。フジキド・ケンジの運命が、完全に変わってしまったのは。</item>
+        <item>KA-DOOOOOOOM…！　後方でマッシヴ・ハナビの如き爆発音が上がった。全てがスローモーションに見えた。ケンジはトチノキの濁りなき瞳を覗き込んでいた。黒い小さな瞳が、ムービー・スクリーンのように拡大され、ケンジの背後から迫る猛烈な爆風と、ニンジャめいたシルエットを映し出した。</item>
+        <item>ああ、ナムアミダブツ！！</item>
+        <item>ナムアミダブツ！</item>
+        <item>ﾅﾑｱﾐﾀﾞﾌﾞﾂ……</item>
+        <item>－－－－－－－－－－－－－－</item>
+        <item>動脈血のように赤黒いニンジャ装束を纏い、フジキド・ケンジはシャチホコ・ガーゴイルの上に独り佇む。あの日から、全てが変わってしまった。もう、決して元通りにならないものがあるのだ。
+重金属酸性雨で羽を傷めた鴉たちが群れ集い、フジキドの体に停まり、黙々とフロストバイトの肉を啄んでいた。</item>
+        <item>「「「ニンジャ殺すべし。だが、俺の供えるセンコは、本当にフユコやトチノキの魂を慰めているのだろうか。彼らは、オーボンの夜にも還らなかった。俺は、正しいのだろうか。俺は本当に、正気なのだろうか」」」
+ひときわ大きな三本脚の鴉が、生首から片眼を抉り出し、顔を上げてごくんと呑みこんだ。</item>
+        <item>「「「なんたるマッポーの世だ！」」」フジキドは心の中で苦悶する。「「「もしかすると、俺の魂は、俺の中に憑依したあの謎のニンジャソウルと溶け合って、ひとつになっているのではなかろうか。だとしたら……いや、待て、これは何だ！」」」
+ニンジャスレイヤーが不意に動いた。鴉たちが飛び去る。</item>
+        <item>フジキドは生首を手早くシャチホコの口に詰め込んでから、ニンジャロープとニンジャ脚力を巧みに使って屋上から飛び降りた。果たしてそれは、いかなる偶然であったのか。遥か遠く離れた地上から、ごくごく微弱な……焚かれたオーガニック・センコの香りが……奇跡的にも彼の嗅覚細胞に結びついたのだ。</item>
+        <item>スゴイタカイ・ビルの中階層付近まで降りた彼は、垂れ幕を吊るす突起に手を引っ掛け、そこから鋭いニンジャ視力でビル前広場を見た。そこには、マルノウチ抗争慰霊碑の前で静かに手を合わせる、ノボセ息子夫妻とムギコの姿があった。
+「おお……ナムアミダブツ！」フジキドのメンポを血の涙が伝った。</item>
+        <item>祈り終えたムギコの父は、ノボセ老から託されたオリガミ・メールを読み返した。『ムギコや、わしにはひとつ、心残りがある。お父さんたちと遊びに行くついでに、わしの代わりにスゴイタカイ・ビルに御参りに行っておくれ。お前にはまだ何のことやら分からないだろうが、それで皆、少しは救われるのだ』</item>
+        <item>「さあ、もう帰ろう。風邪を引くと悪い」ムギコの父が後ろを振り向くと、彼らの護衛についていたデッカーたちは、まだ手を合わせオジギの姿勢を取っていた。無理もない、マルノウチ抗争で多くのマッポも死んだのだ、と彼は神妙な顔を作った。
+「あっ、これ、カワイイ！」不意に、ムギコが声を上げる。</item>
+        <item>ムギコの履いていた汚染除けハイカット・ブーツに、寒さと恐怖でガタガタと身を震わせるミニバイオ水牛が擦り寄ってきたのだ。ツチノコ・ストリートを抜けて来た時に、あちこちに小さな傷を負ったようだ。
+「ねえ、うちで面倒見てもいい？　そう！　まだ貰ってないもの、クリスマス・プレゼント！」</item>
+        <item>「最後まで面倒を見るかい？」「うん」「じゃあいいよ」
+「やったあ！　お爺ちゃんにもすぐに見せるんだ！」ムギコはPVCレザー手袋でミニバイオ水牛を抱き上げ、大きくネコネコカワイイ・ジャンプを決めて叫んだ。「メリークリスマス！　ネオサイタマ!」
+ミニバイオ水牛が驚き、静かに失禁した。</item>
+        <item>「メリークリスマス・ネオサイタマ」　終わり</item>
     </string-array>
-
+    
     <string-array name="story_speech">
-        <item>daiichikan「neosaitamaenjou」yori「neoyakuza・foh・seru」</item>
-        <item>neosaitamanisobieruakunonejiro、tokorozawa・pirahjuusankai。kokoharaomoto・kannodamihkaisha、nekosogi・fandonojimushodeari、dahku・ninja・sosaieteinotorehningu・guraundodemoaru。madonosotodeha、akaranokougekiwofusegutame、suujuumotonosahchiraitogakoushikuyozorawokirisaiteita。</item>
-        <item>raomotohanagasajuumehtorumoarukoukyuuichimaiitanodesukunisuwari、hamakiwofukasu。kyounokanoshouzokuhasentoufukudehanai。yoroshi＝sanseiyakutonoshoudangaarukarada。bijinesuyounoarumahnisuhtsujougeni、kusarizukin、ougonmenpotoiuidetachidearu。soredemo、zenshinkarasakkigaminagitteita。</item>
-        <item>「raomoto＝san、shingatanokurohnyakuza、Y-12gadekimashita」yoroshi＝sanseiyakunoeigyouga、asewofukinagarashidoromodorodesetsumeisuru。suuokutoiukanegaugokuichidaitorihikida。raomotonokigenwotorutameni、daitorofunmatsuwo30kiroguramumojisanshiteiru。</item>
-        <item>「mitemiyou、yoroshi＝san。washiworakutansasenaidekureyo」
-raomotohasekiwotachi、yoroshi＝santonarande、fukinukeninatteirujuunikaiwomioroshita。juunikaihaarihnajouninatteori、sorewogururitomiorosujuusankainogarasumadoha、subetekyoujinnaboudangarasuseitonatteiru。</item>
-        <item>「aredesu」
-　yoroshi＝sangayubisasusakiniha、kuroisuhtsunimiwotsutsundajuusuuninnokurohnyakuzagatachi、bohringunopinnoyouniseizentonarandeita。
-　omotemukihaedojidaikaratsudukukazegusurimehkah、yoroshi＝sanseiyakuha、kazukazunoseitaiheikiwourashakainiryuutsuusaserushinobukishounindemoarunoda。</item>
-        <item>「raionwohanase」raomotogabuzahbotanwooshinagarameireisuru。
-　geishanoegakaretakyodainashoujikogahiraki、nakakaramekishikounokyouakunaraiongasugatawoarawasuto、tachimachiyakuzatachinitobikatta！
-　naranoningennara50ningakaridemokorosenai、osorubekimoujuuda。</item>
-        <item>dagakurohnyakuzaha、zen\'inmattakuonajiugokidehidarinomunamotokarachakawonuki、isshimidarenushagekideraionwoanoyoniokutta。sorekara、mattakuonajiugokidechakawoshimai、mattakuonajiugokidemidaretakamiwonaoshi、mattakuonajiugokidetokonitanwohaita。namuamidabutsu！　nantoiutousotsuryokuka！</item>
-        <item>「muhahahahaha！」raomotohakoushousuru。
-「tekihamouraiondemo、kehsatsudemo、sumotoridemoonajikotodesu」yoroshi＝sannoeigyoumo、nezuminoyounawaraikoewomorashinagarajimangenikatatta。「kurohnnaradehanotouitsukandesu。Y-12hamutekidesu」shikashikanowaraimokokomadedatta。</item>
-        <item>「dehahyuhjishurikenwohanase」raomotogabuzahwooshita。
-nandatte？　yoroshi＝sannokaogakumoru。shikkinshi、eigyousuhtsunomaegahonnorishimeru。
-geishanoegakaretashoujikogahiraki、nakakarabandeittoniyokunitaninjagasugatawoarawashita。chokkei2mehtoruchikaikyodaisurikenwohimodeseotteirunogatokuchouda。</item>
-        <item>kurohnyakuzagamigamaerumaeni、hyuhjishurikenhasouzouwozessuruhodonosubayaiugokitochikarade、senakanokyodaisurikenwonageta。yakuzatachihaisseinichakahetewonobasu。dagamaniawanai！　kurohnyakuzaha、zen\'indoujinikyoufunohimeiwoageta。</item>
-        <item>seramikkuseinokyodaisurikenhabuhmerannoyounakidouwoegaki、bohringunopinnoyouninarandayakuzazen\'innokubiwokiritobashinagara、futatabimochinushidearuhyuhjishurikennotemotonimodotta。kubiwouttayakuzatachiha、itonokiretaayatsuriningyounoyouni、zen\'inisseiniushirohetotaoreta。</item>
-        <item>「muhahahahaha！　sutoraiku！　muhhahahahahaha！」raomotohasensuwohirogeteoowaraishiteita。karehajakushagamushikeranoyounishinunowomirunogananiyorimosukinanoda。</item>
-        <item>「raomoto＝san、moushiwakearimasen」yoroshi＝sannoeigyouhakyoufunoamaritokonitaorete、zensokuwookoshitamaguronoyounikuchiwopakupakutosaseteita。「sekininwotottesepukushimasu」</item>
-        <item>「iya、ii」raomotohasensuwopisharitotojiru。「hehtaiganinjayorimotsuyokereba、itsunekubiwokakarerukawakarandehanaika。yoroshi＝sanyo、konkaimoyoishigotodatta」
-「maidoarigatougozaimasu」yoroshi＝sannoeigyouhaikimotaedaenitachiagari、maewohankachidenuguita。</item>
-        <item>「shikashi、kisamahawashinoofisunotokowoyogoshitatame、ikashitehaokan」raomotogabotanwoosuto、yoroshi＝sannoeigyounoashimotogahiraki、hitokuiizuwaiganinomuragarupuhruhetomakototsusakasamanitenrakushita。eigyougakaniniteashiwokuwarerunowomioroshinagara、raomoto・kanhakononichisaikounowaraikoewoageru。</item>
-        <item>「hyuhjishurikenyo、appareda」raomotogabuzahwooshitearihnanikoewotodorokaseru。「ima、washiniha２tsunotekigaoru。ninjasureiyahtodoragondohjohda」</item>
-        <item>「ninjasureiyahnarunezuminiha、bandeittowosashimuketa。omaehaahsukueikutokumi、dohjohnihoukashitekurunoda」raomotogachimonamidamonaimeireiwokudasu。
-「yorokondeh！」hyuhjishurikenhabakutenwouchinagara、shoujikonomukounikieta。（「sapuraizudo・dohjoh」nitsuduku）</item>
-        <item>◆sukoshino◆
-taihenosewaninatteorimasu。honjitsuha２２jikorokarashudouniyorumijikainasaihousouwoyoteishiteorimasu。douzoyoroshikuonegaiitashimasu。
-◆doujou◆ #njslyr #njslyr7r</item>
-        <item>◆◆◆◆◆◆◆◆◆◆◆◆</item>
-        <item>daiichikan「neosaitamaenjou」yori　「neoyakuza・foh・sehru」</item>
-        <item>neosaitamanisobieruakunonejiro、tokorozawa・pirahjuusankai。kokoharaomoto・kannodamihkaisha、nekosogi・fandonojimushodeari、yaminoninjasoshiki「soukaiya」notorehningu・guraundodemoaru。madonosotodeha、akaranokougekiwofusegutame、suujuumotonosahchiraitogakoushikuyozorawokirisaiteita。　１</item>
-        <item>raomotohanagasajuumehtorumoarukoukyuuichimaiitanodesukunisuwari、hamakiwofukasu。kyounokanoshouzokuhasentoufukudehanai。yoroshisanseiyakutonoshoudangaarukarada。bijinesuyounoarumahnisuhtsujougeni、kusarizukin、ougonmenpotoiuidetachidearu。soredemo、zenshinkarasakkigaminagitteita。　2</item>
-        <item>「raomoto＝san、shingatanokurohnyakuza、Y-12gadekimashita」yoroshisanseiyakunoeigyouga、asewofukinagarashidoromodorodesetsumeisuru。suuokutoiukanegaugokuichidaitorihikida。raomotonokigenwotorutameni、daitorofunmatsuwo30kiroguramumojisanshiteiru。　3</item>
-        <item>「mitemiyou、yoroshi＝san。washiworakutansasenaidekureyo」 raomotohasekiwotachi、yoroshisanseiyakunoeigyoutonarande、fukinukeninatteirujuunikaiwomioroshita。juunikaihaarihnajouninatteori、sorewogururitomiorosujuusankainogarasumadoha、subetegakyoujinnaboudangarasuseitonatteiru。　4</item>
-        <item>「aredesu」 yoroshi＝sangayubisasusakiniha、kuroisuhtsunimiwotsutsundajuusuuninnokurohnyakuzagatachi、bohringunopinmeiteseizentonarandeita。yoroshisanseiyakuha、omotemukihaedojidaikaratsudukukazegusurimehkahdearu。dagasonoippoude、kazukazunoseitaiheikiwourashakainiryuutsuusaserushinobukishounindemoarunoda。　5</item>
-        <item>「……raionwohanase」raomotohabuzahbotanwooshinagarameireisuru。geishanoegakaretakyodainashoujikogahiraki、nakakaramekishikounokyouakunaraiongasugatawoarawasuto、tachimachikurohnyakuzatachinitobikatta！naranoningennaraba50ningakaridemokorosenai、osorubekimoujuuda！　6</item>
-        <item>dagakurohnyakuzaha、zen\'inmattakuonajiugokidehidarinomunamotokarachakawonuki、isshimidarenushagekideraionwoanoyoniokutta。sorekara、mattakuonajiugokidechakawoshimai、mattakuonajiugokidemidaretakamiwonaoshi、mattakuonajiugokidetokonitanwohaitanodearu。namuamidabutsu！nantarutousotsuryokuka！　7</item>
-        <item>「muhahahahaha！」raomotohakoushousuru。 「tekihamouraiondemo、kehsatsudemo、sumotoridemoonajikotodesu！」yoroshisannoeigyouha、nezumijimitawaraikoewomorashinagarajimangenikatatta。「kurohnnaradehanotouitsukandesu！Y-12hamutekidesu！」shikashi、kanowaraimokokomadedatta。　8</item>
-        <item>「dehahyuhjishurikenwohanase」raomotogabuzahwooshita。nandatte？yoroshi＝sannokaogakumoru。shikkinshi、eigyousuhtsunomaegahonnorishimeru。geishanoegakaretashoujikogahiraki、nakakarabandeittoniyokunitaninjagasugatawoarawashita。chokkei2mehtoruchikaikyodaisurikenwohimodeseotteirunogatokuchouda。　9</item>
-        <item>kurohnyakuzagamigamaerumaeni、hyuhjishurikenhasouzouwozessuruhodonosubayaiugokitochikarade、senakanokyodaisurikenwonageta。yakuzatachihaisseinichakahetotewonobasu。dagamaniawanai！kurohnyakuzaha、zen\'indoujinikyoufunohimeiwoageta！　10</item>
-        <item>seramikkuseinokyodaisurikenhabuhmeranmeitakisekiwoegaki、bohringunopinnoyouninarandakurohnyakuzazen\'innokubiwokiritobashinagara、futatabimochinushidearuhyuhjishurikennotemotonimodotta。kubiwouttayakuzatachiha、itonokiretaayatsuriningyounoyouni、zen\'inisseiniushirohetotaoreru！　11</item>
-        <item>「muhahahahaha！sutoraiku！muhhahahahahaha！」raomotohasensuwohirogeteoowaraishiteita。karehajakushagamushikeranoyounishinunowomirunoga、naniyorimosukinanoda。　12</item>
-        <item>「……raomoto＝san、mo、moushiwakearimasen……」yoroshisannoeigyouhakyoufunoamaritokonitaore、zensokuwookoshitamaguronoyounikuchiwopakupakutosaseteita。「……sekininwotottesepukushimasu」　13</item>
-        <item>「iya、ii」raomotohasensuwopisharitotojiru「heitaiganinjayorimotsuyokereba、itsunekubiwokakarerukawakarandehanaika。yoroshi＝sanyo、konkaimoyoishigotodeatta」 「maidoarigatougozaimasu」yoroshisannoeigyouhaikimotaedaenitachiagari、maewohankachidenuguita。　14</item>
-        <item>「shikashi、kisamahawashinoofisunotokowoyogoshitatame、ikashitehaokan」raomotohafuinibotanosu！surutoeigyounoashimotogahiraki、hitokuiizuwaiganinomuragarupuhruhetomakototsusakasamanitenrakushita！namusan！eigyougakaniniteashiwokuwarerunowomioroshinagara、raomoto・kanhakononichisaikounowaraikoewoageru！　15</item>
-        <item>「hyuhjishurikenyo、appareda」raomotogabuzahwooshitearihnanikoewotodorokaseru。「ima、washiniha２tsunotekigaoru。ninjasureiyahtodoragon・dohjohda」　16</item>
-        <item>「ninjasureiyahnarunezuminiha、bandeittowosashimuketa。omaehaahsukueikutokumi、dohjohnihoukashitekurunoda」raomotogachimonamidamonaimeireiwokudasu。 「yorokondeh！」hyuhjishurikenharenzokubakutenwouchinagara、shoujikonomukounikieta！　17</item>
-        <item>（「neoyakuza・foh・sehru」owari　「sapuraizudo・dohjoh」nitsuduku）</item>
-        <item>■madeisonobaachan■１■ 『……hai、korede「neoyakuza・foh・sehru」haowarida。raionkowainee！kurohnyakuzamokowainee！joujingayakuzayaraionto１tsui１detatakattara、douagaitattekachimehanaiyo。demo、ninjahamottokowai！korehane、isshunoshokumotsurensananoyo！』■chie■</item>
-        <item>■madeisonobaachan■２■ 『……a？soko、nanikaitsuttakai！？zuibuntomijikaihanashidatte！？……fehfehfeh、soryasousa、konohanashihasaishokinikakaretamonode、shikamo「sapuraizudo・dohjoh」nopurorohgumitainamondakaranee。kocchimo、kinjitsusaihousouyoteidayo。tanoshiminine！』■chie■</item>
-        <item>■madeison■３■ 『wattsu？raomotohaninjananoni、nandeninjashouzokuwokitenainokatte？soryaane、daremokaremoshirokujichuuninjashouzokukitetaraninjadattebarerujanaino！arehaisshuno、sentoufukumitainamononanoyo。atashaninjajanaikarahontounotokohakainnaikedone！』■chie■</item>
-        <item>■madeison■４（owari）■koratsu！atashigajuuatsushininjahezzudanante、daregaitsuttandai！atashihanee、mukashihonhousouwomitakotogaarudakeno、zenryounaichishichoushadayo！shikamooosujihawasureterutokitamonda！konnichihashinpurunahanashidattakara、shinpuruniowaruyo！jaane、sassatonechimaina！■chie■</item>
+    <item>「meriikurisumasu・neosaitama」　#1</item>
+    <item>sekaizendowodenshinettowaakugaooitsukushi, saibaneteikkugijutsugafuhenkashitamirai. uchuushokutaminadochikijimitayume. hitobitohahaiironomegaroshiteinisumi, yorunayorunasaibaasupeesuhetouhisuru. seifuyorimochikarawomotsumegakoopomuraga, kokkawohaigokarasousasuru. kokohaneosaitama. sakokutaiseiwoshikunipponnochuushinchida. </item>
+    <item>isshuukanmaekarajuukinzokusanseiuhatomi, haiironoyukihetokawatteita. marunouchi・sugoitakai・birunosaijoukaitenboueriadeha, kachigumitachigatokuriwokatamukeatteiru. birumachiniha「kokeshikotatsu」「miryokutekina」「sukoshitakaiga」nadotoshodoosaretataremakugasagari, gairowoikimajiuhitobitonokoubaiiyokuwoaotteita. </item>
+    <item>neonsainnokouzuiwoheigeisuruyouni, yoroshisanseiyakunokokeshitsuepperingaiatsutekinisorawotobi, ryokyakkiyuudouyouhorotorii・koridoonoyokodeookinasenkaiwoitta. 「byouki」「toshiyori」「yoroshisan」tonagarerumuhyoujounakatakanawo, sonokafukunidaetakyodaiekishoumonitanimeimetsusasenagara. </item>
+    <item>betsunanikinomagurotsuepperinha, NSTVshanomonoda. katahounooogataekishoumonitadeha, oirandoroido・deyuo「nekonekokawaii」no2ninga, saibaasangurasudememotowokakushinagarautatteiru. mouikkinomonitadeha, kanojotachifutariwomoshitarenkabanoirandoroidonokomaasharuganagareteita. </item>
+    <item>andoroidogijutsunojitsuyoukaniyorimassakinihattenshitanoha, iryoudemokaigodemogunjidemonaku, taishuunonouwomahijoutainiochiirasekoukatsunaekusupuroiteeshonwotsudukeru, shoubizusangyoutoseisangyoudeatta. kanojoranoshutsugenniyottesuujuumannintan\'inojoshigayumewoakirame, oiransenmongakkouhenotenkouwoyoginakusaretatoiu. </item>
+    <item>sugoitakai・birumaenohirobadeha, nekonekokawaiiniyorutoppatsuraibunouwasawokikitsuketaboutotekishin\'eitai「NERDZ」tachiga, barikidorinkuwoteniissokuhayakumosshupittowotsukutteita. sudenisuujuunintan\'inoshishoushagadeteirumoyouda. joukuukaraha, neosaitamashikeinokanjisaachiraitomoterasareteiru. </item>
+    <item>hirobanokatasuminihissoritotateraretahakaishikataireihimoboutononamininomare, koufunshitaNERDZno1ninga, sonouedekiseiwohasshigaranandomojanpuwokurikaeshiteita. 
+honrainarabakonya, kokodeneosaitamashikeiniyoruogosokanaireishikitengaokonawarerutehazudattaga, suujitsumaenitotsuzenkyanserusaretanoda. </item>
+    <item>sonoharukaue. gekainokensoukarakakuzetsusareta, sugoitakai・birunookujou. shihouniharidashitakyoukamikageishiseishachihoko・gaagoirunohitotsuni, oyosonintohaomoenuiyounakagega, tsumasakitachidebidoudanisezusuwarikondeiru. kubinimaitanagaimafuraanoyounaboronunoga, hageshiikazewouketenanamekouhouhetofukinagasareteita. </item>
+    <item>akakuroininjashouzokudemiwotsutsundasonootokonokuchimotoha, 「nin」「satsu」tohoraretakoutetsumenpodekakusareteiru. kanotsumetakusasuyounashisenha, miwatasukagirihateshinakutsudukumegaroshiteihetososogareteita. 
+karehamimiwosumashi, kazenonagarewokanji, ninjanokehaiwosaguru. saishinobozennisonaerutameno, aratanasenkowomotomete. </item>
+    <item>「meriikurisumasu・neosaitama」　#1owari　#2hetsuduku</item>
+    <item>「meriikurisumasu・neosaitama」　#2</item>
+    <item>bunbunbuunbunbunbuun, bunbunbuunbubuun. in\'utsunadenshibeesuotodejinguruberuganarihibiku. ohagiyatainomaede, riaruyakuzadoushiganawabariwoarasou. toorinimenshitaIRCmoterunoyonkaideha, zazen・dorinkudekimetasugoikyuuhakkaagakensouwomioroshitereishoushinagara, kaminiteijinosuuhaiwosasageru. </item>
+    <item>sugoitakai・birukaraikurakahanaretagekai. kokoniha, mappodesaemochikayoranuwaizatsunaankokugai, tsuchinoko・sutoriitogahirogari, musuunoneonsaintousugitanaimakegumideafurekaetteiru. matomonanyuuronwomotsushiminnaraba, kousoubirugunwotsunagukuuchuutoriikairouka, chikashoppingumooruwoarukudarou. </item>
+    <item>aetekonoyounabashowoayumunoha, kasouroudoushakahanzaisha, aruihaottewomakousurumonodakeda. tsubakounobouchirihattowooottasonootokoha, joutounakuroikeburaa・torenchikootonoeriwotatetekaowokakushi, neonmachiwoaruiteita. tokiori, munamotokarapettonominibaiomizuushigakaowodashi, fuansounakaodeshiroiikiwohaku. </item>
+    <item>shokuwouttariaruyakuzagakejime・shoowoitteiruwanoyokowo, otokohaashibayanitoorinuketa. migitedeha, ranniitsuttabaiosumotoriganokisakinitsurusare, kimonosugatanomohikanonnatachigashokku・nunchakuyasasumatadekorewoitabutteiru. 「takedashingen」「yasuragi」tokakaretaPVCnoborigamuhyoujouniyureteita. </item>
+    <item>totsuzenIRCmoterunomadogaware, kiseitotomoniningarakkashitekita. 「pekeroppa!　pekeroppa!」pekeroppa・karutonohakkaada. atamakarahaetananjupponmonoLANkeeburuwofurimidashi, FMongenmeitagouseionseidesakebi, notautsu. nyuuronwoyakaretanoda. 
+minimizuushigakootononakadefurue, shizukanishikkinshita. </item>
+    <item>otokohakoreranosoakudewaizatsunamonokaramewotoozakeruyouni, kootonoeriwotedesaranitakakushita. saibaasangurasudeotokonokaohahotondomienaiga, chindahootofukaishiwagahonmononaraba, gojuuhakoeteiyou. minitsuketahinhadoremo, kanochiigakanaritakaimonoka, aruihachokuzenmadetakaimonodeattakotowoukagawaseru. </item>
+    <item>kikennaponbikieriayakingyofuraiyatainokanwonukenagara, otokohatokiorifurikaeri, ottenoumuwotashikameru. kehainashi. 
+kuuchuuwoshitainoyounitadayoumagurotsuepperinnoeizouha, katakurushiiosumou・nyuusuhetokirikawari, neosaitamashikeihyougiinnohitorigajitakudeshitaitoshitehakkensaretakotowotsutaeteita. </item>
+    <item>「shiinfumei」「kyoukinashi」「sepukunokanouseimo」……kyasutaanokuchiniawasetejimakugashiitekinikyouchousareru. otokogasorawomiageruto, betsunomagurotsuepperinganyuusuwoooikakushi, oirandoroido・aidorugaryouashiwoWnojinishitetobu, inshoubukainekonekokawaii・janpunoeizouworireisurutokorodatta. </item>
+    <item>yagateotokonosekigaisensaibaagurasuha, touroudeiriguchiwofuusasaretakurairojiwomezatokuhakken. zattounonamikarasururitonuke, tourouwotakuminikoetekomairojiwosusumu. joudekida, daremokiduiteinai. miginobirunogokai, tetsugoushinotsuitamadokara, bonbori・tangusutentomoshibinomeimetsugamore, kowaretaneonkaraaoihibanagachitta. </item>
+    <item>bachibachitoiusenkohanabinoyounahibananiterasare, gokubutominchokaradade「waruiseifuda」「mappohasepuku」「ingaohoo」tokakaretahanseifudantainoneohaikugaukabiagaru. konkuriitonikorogaruUNIXyakyuugataoirandoroidonozangaiyanezuminoshitainadowofuminagara, otokohasaranaruangariwomotometesusumu. </item>
+    <item>kakuwomagaruto, shironurinokabetotourougaikutewosonda. deddo・endoda. bokiri, toiuhonenooreruiyanakanshokuga, buutsukoshininyuuronnitsutawatta. nanikanoshitaiwofundanokamoshirenaishi, aruihabutaashikamoshirenai. minibaiomizuushigahonnoutekinakyoufuwokanji, kaowodashitefuansounimoomootonaku. sonotoki. </item>
+    <item>「doomo. hotaka=san」haigokarafukitsunakoegakikoeta. 
+hotakatoyobaretaotokoha, denkishokkuwoabitakanoyounikaradawobikutsukasetekara, gikochinakuushirowofurimuita. bonbori・tangusutentomoshibigameimetsushi, hibanagachiruto, ninjarashikiotokonoshiruettogaukabiagatta. </item>
+    <item>hotaka=sanhamugondehidarinosodewomakuri, saishingatanosaibaneteikkusentougishuwotsuyunishita. kuroshitsunurinotekkoV7katanotsugimekara, usumidoriironosaibaahikarigamoreru. netsukewotsukandehimowohikuto, yuugennakidouotototomoniasshukukuukigahaishutsusareru. roubaishitaminibaiomizuushigakootokaratobiori, yaminonakanihashirisatta. </item>
+    <item>----------</item>
+    <item>ninjasureiyaaganinjarooputsutainisonorojiurahetochakuchishitatoki, sudenikeburaa・torenchikootonootokohamonoiwanushitaihetokawatteita. kuchinonakanihabutaashigatsumekomareteori, ikkensurutoisoidebutaashiwotabeyoutoshitaotokonochissokushinoyounimoomoeru. </item>
+    <item>daga, ninjasureiyaanosurudoikansatsumeha, otokonokubidoumyakugakogatanotoutekimononiyottehakaisareteirunowominogasanakatta. shiinhashitsuchishida. ……soremoosoraku, ninjano. shikashi, ninjasouruwozanryuusasetasurikenyakunai・daatonotaguha, dokonimomiataranai. hatashiteikanarutorikkuka?</item>
+    <item>ninjasureiyaahamiwokagame, reiseinikonootokonosujouwosaguru. isogabamaware……tegakariwosagasukotoga, saishuutekinihaninjanitadoritsukuhazuda. hidaritenoshitsunuritekkoniha, neosaitamashikeinokin\'ironoenburemugahikatteiru. kichoumennaotokodattayoude, boushinouranihahotaka・nakanakatoshishuuganasareteita. </item>
+    <item>soshiteninjasureiyaaha, shigokouchokudekatakunigirishimeraretahotaka=sannomigiteni, uguisushokunoorigami・meerugachiisakuoritatamareteirunowonukemenakuhakkenshita. 
+「.....Wasshoi!」
+akakuroikagehasayuunokabewokougonijanpushitekakenobori, futatabineosaitamanoyamihetokieteyuku. </item>
+    <item>sonosanjuufungo, tokumeitsuuhouwouketaneosaitamashikeinomappobutaigatsuchinoko・sutoriitonourarojiwofuusashita. tabikasanaruyakintochoukakinmudemaguronoyounamewoshitamattanmappotachiha, manyuarudoorinigenbanoyubisakakuninwookonai, hotaka=sannokuchinitsumekomareteirubutaashiniooinichuumokushita. </item>
+    <item>「kubimotoninanikakizuga…」
+wakaimapponohitorigasorewoshitekishiyoutoshitatoki, ookinaohagiwokuchakuchatokaminagara, tsuchinokohigashichikutantounochiifumappoganuuttosugatawoarawashita. 
+「korondatokininanikasasattandaroyo……oyaoya, korya, hotakanojiisanjaneeka. konnichihayoujingayokushinuze. geeeppu!」</item>
+    <item>「meriikurisumasu・neosaitama」　#2owari. 　#3hetotsuduku. </item>
+    <item>「meriikurisumasu・neosaitama」　#3</item>
+    <item>sanshuukanmae. neisaitamachuusuunisobierunihonsaidainobiru, kasumigaseki・jiguratto. 
+kokohamatsurigoto・kan・tamigakoudonayuchakuwotogeta, jinruishijoumarenimirukyodaifukugoushisetsudeari, imanaozouchikugasusundeiru. genzainosaijoukaiha700daga, fukitsuwoimikiraunihonjinnokanshuuniyori, 4ya9nosuujigafukumarerukaiyaheyahasonzaishinai. </item>
+    <item>601kaikarauenihamegakooponoheddoofisumuraga, 301kaikara600kainihakokkaigijidounadonogyouseishisetsuga, 51kaikara300kainihashikeihonbunadonokanchoushisetsuga, 1kaikara50kainihaneosaitamashiyakushogaitsutteiru. 
+soshiteima, osorubekibouryakuwoharandamitsugiga267kainoosumoukaigishitsudeokonawareteita. </item>
+    <item>「kuroonmappowosuumankaradakibodedounyuudato?」neosaitamashikeihyougikainoichiindearuhotaka・nakanakaha, tarundahoowoikaridekouchousasenagara, dohyou・ringunouedetachiagatta. ogosokaniraitoappusaretadohyou・ringutomusuunoshoujikoigainanimosonzaishinaikoudainakuukanni, hotakanodokoegahibikiwataru. </item>
+    <item>「aieee……sonnanikoufunshinaidekudasai」yoroshisanseiyakunobaioeigyoubumon, takahashi=sanhachiisakushikkinshita. 
+「soudahotaka=san, ochitsuite」pankidoo9dannoinoue=sanga, nofutoiudedehotakanokatawodaki, chakusekisaseru. karehaneosaitamahyougikainiokerukazusukunaihotakanodoushinohitorida. </item>
+    <item>hotakahashibuchakusekishi, sankashanokaowomiwatasu. goukei12niniruhyougiinnouchi9ninha, hotakakarawazatorashikumewosorashi, dohyouchuuouniutsushidasareru3Ddeisupureinoshiryouwonagamenagara, chawosusuritsutsuookikuunazuiteita. 
+「「「renchuume, ohagidemotsumaretaka…」」」to, hotakahakokorononakadehitorigochiru. </item>
+    <item>migidonarinisuwaruinoue=sanha, kotobadehareiseisawotamotteiruga, imanimopanki・panchiwokuridashisounaabunausanimichiteiru. hidaritonaridehahotaka=sannomouhitorinodoushi, saikoureinonobose=sangamugondeudewokumi, uganwotojiteita. mattanmappojidainiushinawaretakanohidarimeha, kuroikawagantainiyotteooikakusareteiru. </item>
+    <item>deisupureiwohasandataimenniha, yoroshisanseiyakuwohittoutosurubaiokanrenkigyousanshanodaihyougasuwatteita. sononakaniha, murasakinosuutsunimiwotsutsumikaowokusarizukindekakushitaotokonosugatamoaru. baiomappokakeikakunoshusshishadaihyou, nekosogi・fandoshanoraomotoCEOda. kanokatananoyounagankouga, banokuukiwoshihaishiteita. </item>
+    <item>raomotohatemotonoorigami・meerunifudedenanigotokawoshitatame, yoroshisannoeigyounitewatasu. uwasaniyoruto, konoraomoto・kannaruotokoha, neosaitamanoankokuhanzaishakaitofukaikakawariwomotteirurashiiga, sonomigotonashoukoinmetsunotegiwayue, imadaneosaitamashikeihanekosogi・fandoshanohigouhouseiwotsukamezuniita. </item>
+    <item>「minasan, ichinenmaenokurisumasuwoomoidashitekudasai」origamiwoyondaeigyouhatachiagari, ikiwofukikaeshitamaguronoyounipurezenwosaikaisuru「oozeinomappo=sanga, hanseifusoshikinookoshitamarunouchikousounogiseitonarimashita. konokyoukunwowasuretehaikemasen. izokuhoshouni, doredakekanewotsukaimashitaka?」</item>
+    <item>dohyouueno3Ddeisupureini, mouhitsufontodekanarinoketanokingakugaodoru. raomotoniarakajimebaishuusareteitaneosaitamashikeihyougiinnosuumeiga, atamawosayuunifurinagara, kuchiguchini「oo, namusan……」「namuamidabutsu……」nadotoittarakutannokotobawo, wazatorashiitameikitotomonihaita. </item>
+    <item>「shikashi, kuroonmapponara, koudesu!」yoroshisannoeigyougayubiwopachintonarasuto, 3Ddeisupureinosuujihazeronikawatta. 「shikamo, kuroonmappohawairodefuhaisurukotohaarimasen!　shokumujikanchuuniIRCwosurukotomoarimasen!」
+baishuusaretahyougiintachiha, ookikugankinagarahakushushita. </item>
+    <item>korenitaishi, noboserougayouyakuomoikuchiwohiraku. 「kuroonmappotairyoudounyuu……soredakeha, doukagokanbenitadakitai. sugekaeraretasuumanninnoriarumappogarotounimayoi, yakuzakahakkaaninarudeshou. kosutogamondainaraba, warewaremappohateatenashide, choukakinmudemoshinyakinmudemonandemoyarimasu」</item>
+    <item>「souda, sonotoorida!」hotaka=santoinoue=sangaainotewoire, hantaijin\'eiyorimoiseinoyoikoedeousensuru. monoii・takuteikusuda. yoroshisanjin\'eitobaishuusaretahyougiintachiha, korenitaikousubekuarekoretoikenwonobetaga, sanninnootokotachinodarekagatsunenihantaiikenwonobe, hyouketsunotokiwosakiokurinishita. </item>
+    <item>「iyoootsu!」toiudenshionkoegakannainihibiki, gojiwotsugeru. 3Ddeisupureinoeizouha「ashitamoyoroshisan」tokakaretayoroshisanseiyakunoCMnikirikawatta. kyounokaigihashuuryouda. kouketsunasanninnootokotachiniyotte, kuroonmappotairyoudounyuutoiuboukyohasakerareta. yoroshisanjin\'eigafufukusounihikiageru. </item>
+    <item>kecchakugatsuitawakedehanai. 3shuukangonokurisumasuibuni, tsuikakaigigaokonawarerudarou. 
+「tsumari, 3shuukangoniwareware3ninnouchi1nindemoikinokotteireba…」to, inouehajoudanmekashiteiu「rainendonoyosanhenseinihamaniawanai. renchuunohaibokuda」. 
+「bussoudana」tohotaka「dagayoujinnikoshitakotohanai」. </item>
+    <item>--------------</item>
+    <item>sonosanshuukannochi. inouehajitakude, hotakahatsuchinoko・sutoriitonorojiurade, sorezoremonoiwanushitaihetokawattanoda. 
+shikashikyoukihahakkensarezu, yuuryokunahanninmokugekijouhoumonai. inouenoshiinhapankidoonotoreeningunakanotentou, hotakanoshiinhabutaashiwoisoidetabeyoutoshitakoutentou, tohoudousareteita. </item>
+    <item>shinya0toki. yukigashinshintooritsumorihajimeta. 
+doushi2ninnoshiwoshittanoboseha, kousoumanshonnookujounikidukaretawafuuteitakunikomori, seishintouitsunotamenishodoowoitteita. chashitsunonokisakinihadasshutsuyounoherigaokare, mataokujoukaizentainiha, shinraidekiruudekkokinomappoyadekkaaga30ninamarihaibisareteiru. </item>
+    <item>fuini, shoujikonomukoukarakoegakikoeta. 「otousanokaasan, mite!　nekonekokawaii!」magomusumenomugikoda. gosaitoosanainagarani, haridumetafun\'ikiwokanji, netsukenunodarou. mugikogamadowohiraketeyubisasusakiniha, magurotsuepperingamidoritoakanoLEDraitowomatatakasenagara, suguchikakuwotondeita. </item>
+    <item>magomusumenokoewokiitanoboseha, suzuriwosurutewoyameru. 「namusa」totochuumadeshodoosaretawashiwomarumetesuteta. kokorogamidaretanoda. 「「「shikakunoneraiha, osorakuwashihitori」」」. chinshimokkounomatsunimewohiraki, akaiorigaminouranisaifudedenanikawoshitatametekara, karehashichihonnoyubideshinpitekinatsuruwooriageta. tatsujin!</item>
+    <item>「watashimoookikunattaranekonekokawaiininaritai!」mugikohakuruttayouninekonekokawaii・janpuwokurikaesu. ryoushingashinmyounakaodenadamerumo, koukaganai. 「mugikoya」shoujikowohiraketechashitsukaradetekitanoboserouha, yasashisanonakanikibishisawotataetakaodeitsutta「narenaimonomoarunda. akiramenasai」</item>
+    <item>「otousan, sumimasen」nobosenomusukogareigitadashikuatamawosageta. karehachichioyanochiiwotsukaukotowokirattatame, ikkainosararimanniamanjiteiru. 
+「iinda, washinoseidekonnakotoninatteshimattandakarana」tonobose「soreyori, mugikowotsureteasobiniittekoi. konyahatanoshiikurisumasu・ibudarou」</item>
+    <item>「iino?」to, mugikonokaogaakarukunaru. 
+「iindesuka, tousan?」
+「shinraidekirudekkaawogoeinitsukerukaraittekoi. omaetachigairuto, shodoogamidareruyue」
+musukofuufugaisoisotomijitakuwototonoeteirumani, noboserouhamagomusumenitsurunoorigami・meeruwosottowatashite, matachashitsunimodotta. </item>
+    <item>「kurisumasu・ibu……」tataminiseizashitanoboserouha, soushodooshinagara, ichinenmaenoakumuwokaisoushiteita. dekirukotonaraba, shindeittashiminyamapponotameni, ireishikitenwoyatteyaritakatta. daga, konohijoujitaidehasoumoikanai. 「gouranga……」kigatsukutotomurainokotobawoshodooshiteita. </item>
+    <item>「dameda……!」noboserouhamatatachiagari, soreranoshodoowonagaihashideirorinikubetemoyashita. 
+maiagattahinokonagausuguraisanjuutataminochashitsuwohonokaniterashi, chatsuboya, takeya, gen\'ekijidainokendookidoufukuya, neosaitamashikeinomapposuusenmeigaseiretsushitasoudainafukanzunosumiebiyonbonadowoukabiagaraseta. </item>
+    <item>noboserouha4honshikanaimiginoyubidesuzuriwosuru. karehadekkaajidaini1hon, kachoujidaini2honnoyubiwokejimedeutta. kejimeyasepukuhayakuzanofuushuutoomowaregachidaga, kouinomononaradaremogachokumensurushirenda. 
+「satsubatsu…」noboserougasoutsubuyakinagarashodoosuruto, sofunoyasashiimehakie, surudoigankougayadotta. </item>
+    <item>to, masanisonotoki!　magurotsuepperinkaraookikuchouyakushitahaiiroshouzokunoninjaga, noboseteinokawarayanenoueniotomonakuchakuchishitanodeatta!　
+sononinjanoseniha, omura・indasutoriseinokogatakyuusokureitousouchigaseoware, sokokararyoutenosusonoshitahetokomaihoosuganobiteiru. </item>
+    <item>okubaniumekomaretasuicchiwoosuto, hoosunosakikarareikyakukuukigahoushutsusareru. korewoninjaakuryokuniyottekousokuasshukusurukotoniyori, daiyamondokattaanimohittekisurukireajinokoorisurikengatsukuridasarerunoda!　konomonokosoha, raomotogahoutsuttasoukai・shikkusugeitsunoshikaku, furosutobaitodeatta!</item>
+    <item>「「「orenokoorisurikenhashashutsugosuubyoudetokerutame, satsujinnimochiiraretakyoukihazettainihakkendekinai!　abayo, jiisan!　anoyodehaikuwoyomugaii!　kisamanoshiinhashodoonakanotentoushida!　sayonara!」」」
+chashitsunouenokawarawosottohazushitafurosutobaitoha, koorisurikenwoumidashinagarahokusowarainda. </item>
+    <item>「Wasshoi!」
+harukajoukuuwotondeitakokeshitsuepperinkara, akakuroikagegazenpoukaitenshinagaramaiorita. soreharitsuhizajoutaidekawarayanenouenichakuchishitekara, yukkuritomiwookoshichokuritsufudounoshiseiwotoru. ryoushanomaaiha10meetorujaku. 
+「doomo, furosutobaito=san. ninjasureiyaadesu」</item>
+    <item>「meriikurisumasu・neosaitama」　#3　owari　#4hetsuduku</item>
+    <item>(shin\'ainarudokushanominasanhe. kinounorensaifunnichimeitekinagoyakugaarimashita. 「neisaitama」ha「neosaitama」ga, mata「3shuukangonokurisumasuibuni, tsuikakaigiga…」ha「3shuukangonokurisumasuni, tsuikakaigiga…」gasorezoretadashiidesu. honyakutantoushahakesajishutekinikejimeshimashitanode, goanshinkudasai. )</item>
+    <item>「meriikurisumasu・neosaitama」　#4</item>
+    <item>「……doomo」furosutobaitohashitauchishinagaratachiagari, munenomaedekobushitotenohirawoawasetechiisakuojigishita. 
+「「「koitsuganinja・sureiyaa=sanka. orenotenonaihamadashirareteinaihazu. dagaorenoinpurantokiokusoshinainiha, soukainettodeshirabetasentoudeetagaaru. omaehashagekisenniyowai!」」」</item>
+    <item>haiirotoakakuro. futarinoninjahakaratenokamaedeaitenodekatawoukagainagara, boudankawarayanenouewodoushin\'enjouniyokoarukishi, maaiwohakatta. bukiminaseijaku. joukuuwomaukokeshitsuepperinnoLEDmonitaninagareteitamojiga「yoroshisan」kara「itsumoosewaninatteimasu」nikawattatoki, nishahadoujiniugoita. </item>
+    <item>furosutobaitohamigiokubanosuicchiwokami, ryoutenohirawoXnojinishouakushitetsukuttakoorisurikenwo, inazumanoyounasubayasadenagetsukeru!　
+「iyaatsu!」
+kousokukaitensurushibakaririkinoyounakandakaiotowotatete, futsuunosurikenyorimogizagizanoooikyouakunakoorisurikenganinjasureiyaanisematta!　namusan!</item>
+    <item>「iyaatsu!」
+ninjasureiyaamohobodoujinisurikenwonageteita. ryoushanosurikengagekitotsusuru!　daga, nantoiukotoda, futsuunosurikenyorimogizagizagaooifurosutobaitonokoorisurikenha, ninjasureiyaanosurikenwosetsudanshitaueni, sonoikioiwomattakuotoroesaserukotonakuhiraishitanoda!</item>
+    <item>surudoininjahanshashinkeiniyori, ninjasureiyaahamizukaranohidaritenoninsashiyubitonakayubiwotsukitataseta. surikenwosaishougennougokidekawasuhouhouha, nihonnoyubidesurikenchuushinbuwokaitentosuichokuhoukounihasami, sorewokouhouheukenagasukotodearu. tekinochikarawoukeyamerunodehanakuukenagasu……korekosoganinjanosekainanoda!</item>
+    <item>ninjasureiyaahahaewohasamuhashinoyouniseimitsunaugokidenihonnoyubisakiwougokashi, koorisurikennochuushinbuwohasami, ukenagasu……iya, ukenagasenai!　nazeda?
+oo, namuamidabutsu!　koorisurikenhaondosaniyotteyubisakiniharitsuki, chieensoonogotokukaitenshite, kanoyubikanwokirisaitanoda!
+「guwaatsu!」</item>
+    <item>「koorisurikenhaansatsuyoudakedehanai!　orehakonowazade, nanninmononinjanotewohakaishitekitanoda!　ninjasureiyaa=san, kisamanoyounisurikenukenagashinizettainojishinwomotteiruyouna, kidottaikesukaneeyaroudomowonaatsu!」
+furosutobaitohashouriwokakushinshi, saranarukoorisurikenwoshashutsushita!</item>
+    <item>「iyaatsu!」ninjasureiyaahakamihitoedeburijjiwokime, ryoukubinokeidoumyakuwonerattehouttaretakoorisurikenwokaihisuru. tatsujin!　soretodoujini, hidaritewokirisakukoorisurikenwoboudankawaranitatakitsukete, dounikakorewofunsaishita. akakuroichishibukigasupureejounitobichiruga, kan\'ippatsukejimedakehamanukaretayouda. </item>
+    <item>daga, koredeowaridehanai!
+「shine!　ninjasureiyaa=san!　shine!　iyaatsu!」
+furosutobaitoharyoutewosaishingatamansatsugizoukinoyounikokizaminiugokashi, odorokubekihayasadekoorisurikenwoumidashiteha, 1byouni3hatsunowariaidekorewoshashutsushitekitanoda!</item>
+    <item>「iyaatsu!」
+ninjasureiyaahasonomamakousokunekkusupuringudekaradawookoshitekara, kareinataidoo・bakkufurippuwosankaikime, kokanwonerattehouttaretakoorisurikenwosubetekamihitoedekaihisuru. jigokumeitareikigakuukiwokirisakinagara, hoonoyokowazukakazumirinobashowotondeitta. sugoi!</item>
+    <item>bakkufurippukarakaradawonettaninjasureiyaaha, yanenohajiniokaretakaeru・gaagoirunouenichakuchishi, saranikanpatsuirezunikonoashibawokette, furosutobaitonohaigonimukatteyanoyounisurudoikakudodesamaasoruto・janpuwokimeta. kuuchuudekaradawoseigyoshi, migitedeosorubekikaratechoppunokamaewotoru!</item>
+    <item>「iyaatsu!」
+choppugasakuretsushiyoutoshitasonotoki!　furosutobaitohamunenomaedetewoXnojinikousasasetanochi, tekubinohoosuwohaigonimuke, hidariokubanosuicchiwokanda. 「「「hikkakattana!」」」mainasu220℃noekitaitojoukiga, joukuunoninjasureiyaamegakefunshasareru!
+「guwaatsuekikachisso!」</item>
+    <item>gouranga!　ninjasureiyaahakuuchuudesubayakudorirunoyounikaitenshitejanpunokidouwokae, ekikachissonochokugekiwomanukareta. chokugekiwouketeireba, zenshingareitoumaguronoyounitsumetakunattesokushishiteitadearou. 
+shikashi, konokinkyuukaihinotameni, karehataiseiwoichijirushikukuzushiteshimattemoitanoda. ukatsu!</item>
+    <item>「abayo, ninjasureiyaa=san!　kisamanoshiinhabakutennakanofuunnatentoushidaatsu!」
+machigainakukinboshi・ookii!　furosutobaitoharaomoto=sankarawatasarerudearourinjiboonasuniomoiwohasenagara, hissatsunokoorikunai・daatowoninjasureiyaanonodomotonimuketenageta!　namuamidabutsu!</item>
+    <item>dagamate!　yoruyo, kikugaii!　furosutobaitogadaatowotoutekisuruisshunmae, ushimitsu・awaawotsugerufukitsunakanega, neosaitamanakanojinja・katedorarudetsukinarasaretanowo!　ekikachissoenmakunonakaderitsuhizajoutaininatteitaninjasureiyaanomiginokuromegaakakuhikari, senkonoyounikomakunaru!　naraku!</item>
+    <item>「「「hissatsu!　machigainakukorottaaatsu!」」」
+furosutobaitononageta2honnodaatoga, ninjasureiyaanomikentokokannimeichuu!　……toomowaretasonotoki, koorikunai・daatohaninjasureiyaanokaradawotoukashitehaigonoboudankawaraniatari, tourouniochirutsuraranogotokumunashikukudaketanoda. 
+「e?」</item>
+    <item>furosutobaitogaodorokinoamarishiromewomukinagaramiteiruto, ekikachissoenmakunonakaniitaninjasureiyaahakasunoyounikakikieta. 
+「e?」
+kawarini, itsunomanikaninjasureiyaanougangaattabashokaraakaihikarinokisekigaegakare, jibunnokaonomawariwoisshuushite, haigonimawarikondeita. 
+「e?」</item>
+    <item>-------------</item>
+    <item>sonogoro, 5meetorushitanochashitsudehakawarayanenouedehasseishitasentounosouonwokikitsuke, noboserouwomamorubekumappogundangashuuketsushiteita. chuuounoiroriyokoni, noboserougakatanawokamaetejintoriru. kanoiaidooha42dan. oyayubikoyubikusuriyubisaeareba, shichihonyubidemonanrashishounakuninwokoroseru. kawagantaigajittoritoasebanda. </item>
+    <item>saibaasangurasuwokaketakosandekkaa5ninga, kyoukakaabonseinodekkaaganwokamae, senakaawasedenoboserouwokakondeita. 
+saibaaIRCshujutsuwouketeirukareraha, miminonanameushirokarahaetaLANkeeburuwodekkaagantosetsuzokusurukotoniyori, 0konma1byouikanohannousokudodejuunoronritorigawohikeru. </item>
+    <item>saranichashitsunoshihouwokakomuyouni, 20ninamarinoseieimappotachigasasumatayatonfaawokamaenagara, katazuwonondejoukyouwomimamotteita. 
+dekkaa1ninnoshokumusuikounouryokuhahyoujunmappo50ninbunnihittekisurutosarerutame, sukunakumitsumottemo, wazukasanjuutataminokonokuukannaini300ninchikaimappogairukotoninaru. </item>
+    <item>noboserouha, katananogaratosayanitewoatenagara, iaidoonokamaedejittomimiwosumashiteita. sakihodomadekikoeteitaotoyazekkyouga, ushimitsu・awaanokanenootoikou, futoyandakarada. okashii. marudehakabanoyounishizukada. ikiwochiisakuhaita, sonotoki!
+CRAAAAAASH!!　yanenoichibugahourakushita!</item>
+    <item>saishoniugoitanoha, shitsunainogazousen\'ijouhouwosaibaasangurasudesukyanshi, enkakuIRCchattodekyouyuushiteitadekkaatachidatta. ryouteninigittadekkaagannoronritorigagaisseinihikareru!
+saibaneteikkugikaradasuramohakaisuru38koukeinojuukinzokudantoudanga, kuroimukishitsunajuukoukarayoushanakuuchidasareta!</item>
+    <item>BLAM! BLAM! BLAM! uekarafuttekitahaiironohitokagega, dekkaagannoisseishagekiwouketehageshikudansusuru!　kubiganai?　kamaumonoka, haijoseyo!　BLAM! BLAM! BLAM! BLAM!　tokoniokaretatanukichatsubonouenirakkasurugoro, sorehahobogenkeiwotomenunikukaitokashiteita. </item>
+    <item>「……sa, sayonara!!」
+tenjounipokkaritoaitaooananomukoukara, hitsuunaumekigoegakikoetayounakigashita. sonosetsuna, tanukichatsubonirakkashitakubinashishitaiha, omuraseikyuusokureikyakusouchitotomonibakuhatsushisanwotogetanoda!</item>
+    <item>keburaa・torenchikootowohirugaeshi, tossaninoboserounotatetonattetachifusagatteitadekkaatachigaatamawoageruto, chashitsunainihachinisomattayukigaorihajimeteita. 
+noboserougakitsunenitsumamaretayounakaodeooanawomitsumeteiruto, sokokaradoragonnokatachinioraretauguisushokunoorigamimeerugamaiorita. </item>
+    <item>noboserouhasorewotsukami, hiraku. nakanihahotaka=sannonikuhitsutoomowarerunamerakanahissekide, hotaka, nobose, inouenosanninnoshouzougatonamae, soshiteeikouaruneosaitamashikeinoenburemuga. 
+「……Wasshoi!」tohikukuchiisanakoega, dokuronomedamanoyounimakkuronaooananomukoudekikoetayounakigashita. </item>
+    <item>「konnakotogaaroumonoka, iya, arouhazumonai!」noboseha, doushifutarinoshiwoshirasaretemokesshitenagasanakattanamidawo, sonoryougankarakoboshita. gantainiooware, mohayamochiwonasanaihazunomekaramo. 「warawabawarae!　dagawashiniha, shishitahazunohotaka=sangayomigaeri, washiwosukuttekuretatoshikaomoennoda!」</item>
+    <item>「ninja……korosubeshi……!」
+fujikidohasudeninoboseteiwotookuhanare, ninjarooputoninjakyakuryokuwotakuminitsukaiwakenagara, kuraibirumachinookujouwokakenuketeita. narakunobousouhafuriharaware, sonoryouganhakoutetsunoyounitsumetaikuronimodotteiru. tokiori, sonohidariteniyuetahaiironofuroshikikarachigashitatariochita. </item>
+    <item>「meriikurisumasu・neosaitama」　#4owari　#5hetotsuduku. </item>
+    <item>「meriikurisumasu・neosaitama」　#5</item>
+    <item>sugoitakai・birumaehirobadeha, mukishitsunajinguruotogaimadanarihibiiteita. hitodoorimoooi. tookunihabakuchikunootomokikoeru. 
+oobon, kurisumasu, shoogatsu……jinseiwotanoshimukotonihikemewokanjigachinasararimantachimo, omoishuukyoutekiimiwomotsukono3nichikandakeha, tsuginonichinoshigotowowasuretekoudousurunoda. </item>
+    <item>ibunoyorunikaisaisaretanekonekokawaiinotoppatsuraibuha, ihouyakubutsudekoufunshitaNERDZnoichibugasuteejinirannyuushi, 2karadanooirandoroidowohakaishitatame, kendookidoutainokainyuuwomotteatoajiwarukushuuryoushiteita. daga, kanojoranobodeiyakiokuhabakkuappugaaru. konyanosangekihanakattakotoninarudarou. </item>
+    <item>kendookidoutaigatettaishitabirumaehirobadeha, itsumonoyounisushiyataiyayakuza・pusshaaragadokokaratomonakuaraware, nukemenonaishoubaiwohajimeteita. kuroireinkootowokitasumotorimeitaotokoga, chokkei5meetoruhodonoakashitsushokunotaisanseianburerawotate, sonoshitanikizaiwonabetesokusekirappubuusuwotsukutteita. </item>
+    <item>「ﾈｵｻｲﾀﾏｼﾃｨ, 2ｸｰﾙﾘﾘｯｸ, ﾊﾞﾝｻﾞｲｲｪｰ, oreimaﾏｻﾆﾀﾁﾂｸｽ」karemokatsutehaNSredeionoDJwotsutometeitaga, teroyougideshimeitehaisarekaiko. imadehakoushite, geriratekinijishuseisakuginbanwourunomidatta. 「kusattaｺﾉyomasaniﾏｯﾎﾟｰ, oreowareteruimabyﾏｯﾎﾟ, ｲｪｰ」</item>
+    <item>「yousumitsukaeneeｽﾓﾄﾘ, sutetedounyuuﾊﾞｲｵｽﾓﾄﾘ, ﾘｮｳｺﾞｸｺﾛｼｱﾑhinshi, masaniﾊｶｲｼ, ikaruorekorehakaiｾﾝtoshi, IRCﾁｬｯﾄ, ﾊｯ, yudanshiｺﾞﾊｯﾄ, ﾊｯ, mirokekkaｺﾉzamaｻｲﾊﾞｰ, ｻﾝｸﾞﾗｽkakekayoumujinｽｼﾊﾞｰ」
+tatsujin!　katananoyounikireajisurudoiraimu!</item>
+    <item>shikashi, konokikensugiruosumoukaihihangakarenihametsuwomotarashitanoda. soreni, mohayataishuuhakanokotonadoshiranai. NSredeiodeha, kareyorimowakakujuujunnarappaagaDJwotsutometeiru. 
+「ｲｪｰ, katsuteoremezashitayumeby ｼｺ・ﾄﾚｰﾆﾝｸﾞ, demoｺﾉsekaiashitanakiﾊﾞｲｼｺｰ・ﾏﾈｰｼﾞﾝｸﾞ」</item>
+    <item>……daga, munewofukakueguruyouna2COOLririkkunoraimumo, matasonotonarideyataibuusunosakaimearasoiwoshiteiruriaruyakuzatopekeroppa・karutonoshouseriaimo, soshitebeesuotonomukishitsunajingurusaemotodokanai……gekainoarayurukensoukarakakuzetsusaretasugoitakai・birunookujoude, karehahitorichondeita. </item>
+    <item>kokohamarude, senningasumuisekai. joukuunihikarihaissainaku, osensaretaikasuminogotokikurokumodakegafunatsukutarekomeru. kanataniha, jinruinobohyouwoomowaserukasumigaseki・jigurattonokagegaukabiagaru. ninjasureiyaakotofujikido・kenjiha, okujounoshachihoko・gaagoirunosenitsumasakitachidesuwatteita. </item>
+    <item>ninjasureiyaahabidoudanishinai. marudesekizouda. ugokumonotoieba, mafuraanoyouninanamejouhounifukinagasareruakakuronoboronunoto, hidariteninigiraretafurosutobaitononamakubinomi. ninjanokubiha, konokyodainahakaishini, sunawachimizukaranosaishinobohyounisonaerusenkoda. 
+kanomeni, namidahanai. tounikarehateta. </item>
+    <item>satsubatsutoshitaikariwotoorikoshi, mohayasatsujinmaguronogotokimuhyoujoutokashitafujikidonomeniha, ichinenmaenokurisumasunosangekigayomigatteita. 
+wasuremoshinai, marunouchikousounoyoruda. 
+areha, sugoitakai・birunonakakaisouniatta, chuujoemonosounotamenoserufutenpura・resutoran「daikokucho」denokoto……</item>
+    <item>--------------</item>
+    <item>「agetaoishisaga」「tenpura」「DIY」nadotogokubutoosumou・fontodetategakisaretanoboriga, hiroitennaideinaseniyakutteiru. kurisumasusoushokunodenshibonboriga, toshinosekanwoenshutsusuru. 
+sasugahakurisumasu・ibu, mansekida. fujikidoieno3ninha, 1getsumaekarayoyakushiteitakara, dounikasekiwotoreta. </item>
+    <item>「konnenmo, kokonikoreteyokattawa」to, aburanoitsuttakaabondonabewomaenishizukaniwarautsumafuyuko. 「ninjadazoo!　ninjadazoo!」to, isunouedekuruttayounijanpusuruosanaitochinoki. 
+「yareyare, tochinokihaninjagadaisukidana」tofujikido・kenji. 「ittainanitokorode, ninjananteoboeta?」</item>
+    <item>「anatagakattekitanunchakujanai」to, fuyukohakowosuwarasu. 
+「kyonennokurisumasunikattayatsuka」「zuttookiniirinanoyo. soredesenjitsu, hajimete, hakonoenikiduitano」
+「ninjaa!」「shizukaninasaitochinoki, abunaiwayo. …soreni」sonosakihakogoedeitsutta「ninjanante, inainoni」</item>
+    <item>「suriken!　suriken!」tochinokihaotonashikunattatoomottayasaki, picchingumashiinnoyouniryoutewogurugurutomawashita. 
+「guwaatsu!　yararetaa!」kenjihamusukonomujakisaniouji, shinzoutonodonisurikengasasattamanewoshite, oogesanikurushindemiseta. 
+「anata, yametekudasaiyo, hazukashii」</item>
+    <item>「zakkennakoraa!」fuini, tookukarakennonnadokoegakikoeta. 
+「……ara, yakuzakashira」totochinokinokatawomuishikinidakufuyuko. 「misesotodarou, daijoubusa」tokenji. 
+tennaiwomiwatasuto, onajiyounakyouguunokazokudureyawakaikappuruyadouryousararimanga, nanigotomonakutenpuranikyoujiteiru. nanimomondainai. </item>
+    <item>tashikanineosaitamahakakokunatoshida. ikirunihatsuraijidaida. daga, muchanatakanozomiwoshinakereba……megakoopogaaorukajoushouhinonoroiwonogare, barikiyazubarinowananimohamaranakereba……koushiteshiawasehateniiru. 
+negawakuba, tochinokinimokashikokusodattehoshii. 
+wakihajimetaaburawominagara, kenjihasoukangaeta. </item>
+    <item>「doomo!　ikinoyoinogaitsuttemasuyo」to, feiku・itamaegakoewokaketesatteyuku. 「netahaacchiniarimasu, serufudedouzo!」
+「doomo」to2ninhasuwattamamaojigisuru. 
+「nee, shoogatsuha?」「kyouyasumiwotorudakedemoseiippaidattanda」「kaoiro, amariyokunaiwayo. kiwotsukete」</item>
+    <item>「bakuhatsu・jitsu!　kabuun!」ryoushinnokaiwawoyosoni, tochinokihashijitsuwomushishitagekigatekidekigoutekinaninjapoozuwotottesakendeita. 
+fuufuhawarai, shiranuuchinikatakunatteitahyoujouwoyurumeru. 
+「iikai, tochinoki, honmonononinjattenohana…」
+…naniwoioutoshitanodarou, mouoboeteinai. </item>
+    <item>……ALAS!　masani, sonotokidatta. fujikido・kenjinounmeiga, kanzennikawatteshimattanoha. </item>
+    <item>KAADOOOOOOOM…!　kouhoudemasshivu・hanabinogotokibakuhatsuongaagatta. subetegasuroomooshonnimieta. kenjihatochinokinonigorinakihitomiwonozokikondeita. kuroichiisanahitomiga, muubii・sukuriinnoyounikakudaisare, kenjinohaigokarasemarumouretsunabakufuuto, ninjameitashiruettowoutsushidashita. </item>
+    <item>aa, namuamidabutsu!!</item>
+    <item>namuamidabutsu!</item>
+    <item>ﾅﾑｱﾐﾀﾞﾌﾞﾂ……</item>
+    <item>--------------</item>
+    <item>doumyakuchinoyouniakakuroininjashouzokuwomatoi, fujikido・kenjihashachihoko・gaagoirunouenihitoritatazumu. anonichikara, subetegakawatteshimatta. mou, kesshitemotodoorininaranaimonogaarunoda. 
+juukinzokusanseiudehanewoitametakarasutachigamuretsudoi, fujikidonokaradanitomari, mokumokutofurosutobaitononikuwotakundeita. </item>
+    <item>「「「ninjakorosubeshi. daga, orenosonaerusenkoha, hontounifuyukoyatochinokinotamashiiwonagusameteirunodarouka. kareraha, oobonnoyorunimokanranakatta. oreha, tadashiinodarouka. orehahontouni, shoukinanodarouka」」」
+hitokiwaookinasanbonashinokarasuga, namakubikarakatamewoeguridashi, kaowoagetegokuntonomikonda. </item>
+    <item>「「「nantarumappoonoyoda!」」」fujikidohakokorononakadekumonsuru. 「「「moshikasuruto, orenotamashiiha, orenonakanihyouishitaanonazononinjasourutotokeatte, hitotsuninatteirunodehanakarouka. datoshitara……iya, mate, korehananda!」」」
+ninjasureiyaagafuiniugoita. karasutachigatobisaru. </item>
+    <item>fujikidohanamakubiwotebayakushachihokonokuchinitsumekondekara, ninjarooputoninjakyakuryokuwotakuminitsukatteokujoukaratobiorita. hatashitesoreha, ikanaruguuzendeattanoka. harukatookuhanaretachijoukara, gokugokubijakuna……takaretaooganikku・senkonokaoriga……kisekitekinimokanokyuukakusaibounimusubitsuitanoda. </item>
+    <item>sugoitakai・birunonakakaisoufukinmadeoritakareha, taremakuwotsurusutokkinitewohikkake, sokokarasurudoininjashiryokudebirumaehirobawomita. sokoniha, marunouchikousouireihinomaedeshizukanitewoawaseru, nobosemusukofusaitomugikonosugatagaatta. 
+「oo……namuamidabutsu!」fujikidonomenpowochinonamidagatsutatta. </item>
+    <item>inorioetamugikonochichiha, nobosefukaratakusaretaorigami・meeruwoyomikaeshita. 『mugikoya, washinihahitotsu, kokoronokorigaaru. otousantachitoasobiniikutsuideni, washinokawarinisugoitakai・biruniomairiniitteokure. omaenihamadanannokotoyarawakaranaidarouga, soredemina, sukoshihasukuwarerunoda』</item>
+    <item>「saa, moukaerou. kazewohikutowarui」mugikonochichigaushirowofurimukuto, kareranogoeinitsuiteitadekkaatachiha, madatewoawaseojiginoshiseiwototteita. murimonai, marunouchikousoudeookunomappomoshindanoda, tokarehashinmyounakaowotsukutta. 
+「atsu, kore, kawaii!」fuini, mugikogakoewoageru. </item>
+    <item>mugikonohaiteitaosennozokehaikatto・buutsuni, samusatokyoufudegatagatatomiwofuruwaseruminibaiomizuushigasuriyottekitanoda. tsuchinoko・sutoriitowonuketekitatokini, achikochinichiisanakizuwoottayouda. 
+「nee, uchidemendoumitemoii?　sou!　madamorattenaimono, kurisumasu・purezento!」</item>
+    <item>「saigomademendouwomirukai?」「un」「jaaiiyo」
+「yattaa!　ojiichannimosugunimiserunda!」mugikohaPVCrezaatebukurodeminibaiomizuushiwodakiage, ookikunekonekokawaii・janpuwokimetesakenda. 「meriikurisumasu!　neosaitama!」
+minibaiomizuushigaodoroki, shizukanishikkinshita. </item>
+    <item>「meriikurisumasu・neosaitama」　owari</item>
     </string-array>
 
 </resources>
