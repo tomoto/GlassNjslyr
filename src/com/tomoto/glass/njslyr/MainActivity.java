@@ -2,88 +2,57 @@ package com.tomoto.glass.njslyr;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.speech.tts.TextToSpeech;
-import android.speech.tts.UtteranceProgressListener;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 
 import com.google.android.glass.app.Card;
-import com.google.android.glass.widget.CardScrollAdapter;
 import com.google.android.glass.widget.CardScrollView;
+import com.tomoto.glass.njslyr.model.StoryModel;
+import com.tomoto.glass.njslyr.model.TextLineModel;
 
 public class MainActivity extends Activity {
 	
 //	private SensorManager sensorManager;
 //	private Sensor gravitySensor;
 
-	private Handler handler = new Handler();
+	private StoryModel storyModel;
+	
 	private CardScrollView cardScrollView;
 	private GourangaCardScrollAdapter cardScrollAdapter;
 	
 	private TextToSpeech tts;
 	// private UtteranceProgressListener ttsListener; // Doesn't work...
 	
-	private class TtsWatcherTask extends TimerTask {
-		// 0: disabled
-		// 1: waiting for start
-		// 2: waiting for finish
-		private int state = 0;
-		
-		public void start() {
-			state = 1;
-		}
-		
-		public void clear() {
-			state = 0;
+	// Workaround for TTS listener
+	private TTSWatcher ttsw;
+	private TTSWatcher.Listener ttswListener = new TTSWatcher.Listener() {
+		@Override
+		public void onStart() {
+			getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		}
 		
 		@Override
-		public void run() {
-			switch (state) {
-			case 0:
-				break;
-			case 1:
-				Log.i("Gouranga", "Waiting for speech to start");
-				if (tts.isSpeaking()) {
-					state = 2;
-				}
-				break;
-			case 2:
-				Log.i("Gouranga", "Waiting for speech to finish");
-				if (!tts.isSpeaking()) {
-					handler.post(new Runnable() {
-						@Override
-						public void run() {
-							proceedWithText();
-						}
-					});
-					state = 0;
-				}
-				break;
+		public void onStop(boolean force) {
+			getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+			
+			if (!force) {
+				goToNextPage();
 			}
 		}
 		
 	};
-	
-	// Workaround for TTS listener
-	private Timer ttsWatcher;
-	private TtsWatcherTask ttsWatcherTask;
-	
-	public static final String SAVED_STATE_CURRENT_LINE_INDEX = "currentLineIndex";
 	
 //	private SensorEventListener sensorEventListener = new SensorEventListener() {
 //		private static final float THRESHOLD = 0.5f;
@@ -109,12 +78,9 @@ public class MainActivity extends Activity {
 //		}
 //	};
 	
-	private class GourangaCardScrollAdapter extends CardScrollAdapter {
-		private List<TextLineModel> textLineModels;
-		private List<Card> cards;
-		
+	private class GourangaCardScrollAdapter extends AbstractCardScrollAdapter<TextLineModel> {
 		public GourangaCardScrollAdapter(Context context, List<TextLineModel> textLineModels) {
-			this.textLineModels = textLineModels;
+			this.items = textLineModels;
 			
 			cards = new ArrayList<Card>();
 			for (TextLineModel tlm : textLineModels) {
@@ -124,40 +90,6 @@ public class MainActivity extends Activity {
 				cards.add(card);
 			}
 		}
-		
-//		public List<Card> getCards() {
-//			return cards;
-//		}
-		
-		@Override
-		public int findIdPosition(Object id) {
-			if (id instanceof Number) {
-				return ((Number)id).intValue();
-			} else {
-				return CardScrollView.INVALID_POSITION;
-			}
-		}
-
-		@Override
-		public int findItemPosition(Object item) {
-			return textLineModels.indexOf(item);
-		}
-
-		@Override
-		public int getCount() {
-			return textLineModels.size();
-		}
-
-		@Override
-		public Object getItem(int position) {
-			return textLineModels.get(position);
-		}
-
-		@Override
-		public View getView(int position, View contentView, ViewGroup parent) {
-			return cards.get(position).toView();
-		}
-		
 	}
 	
 	@Override
@@ -167,15 +99,9 @@ public class MainActivity extends Activity {
 //		sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 //		gravitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY);
 		
-		String[] texts = getResources().getStringArray(R.array.story);
-		String[] speakingTexts = getResources().getStringArray(R.array.story_speech); 
-		List<TextLineModel> textLineModels = new ArrayList<TextLineModel>();
-		
-		for (int i = 0; i < texts.length; i++) {
-			textLineModels.add(new TextLineModel(i, texts[i], speakingTexts[i]));
-		}
-		
-		activateTTS();
+		Intent intent = getIntent();
+		storyModel = (StoryModel) intent.getSerializableExtra(RootActivity.EXTRA_STORY);
+		List<TextLineModel> textLineModels = Arrays.asList(storyModel.getLines());
 		
 		cardScrollView = new CardScrollView(this);
 		cardScrollAdapter = new GourangaCardScrollAdapter(this, textLineModels);
@@ -184,90 +110,77 @@ public class MainActivity extends Activity {
 		cardScrollView.setOnItemSelectedListener(new OnItemSelectedListener() {
 			@Override
 			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-				speak();
+				readCurrentCardAloud();
 			}
 
 			@Override
 			public void onNothingSelected(AdapterView<?> arg0) {
-				tts.stop();
+				stopCurrentSpeech();
 			}
 		});
 		
-		restoreState();
-		
-		activateSensors();
+		cardScrollView.setSelection(intent.getIntExtra(RootActivity.EXTRA_LINE, 0));
 		
 		setContentView(cardScrollView);
 		
-		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+//		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e) {
-					// nothing to do
-				}
-				handler.post(new Runnable() {
-					@Override
-					public void run() {
-						speak();
-					}
-				});
-			}
-		}).start();
+//		new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				try {
+//					Thread.sleep(1000);
+//				} catch (InterruptedException e) {
+//					// nothing to do
+//				}
+//				handler.post(new Runnable() {
+//					@Override
+//					public void run() {
+//						speak();
+//					}
+//				});
+//			}
+//		}).start();
 	}
 
 	private void activateTTS() {
         tts = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
-                // Do nothing.
+            	readCurrentCardAloud();
             }
         });
         
         // tts.setOnUtteranceProgressListener(ttsListener); // does not work sadly
         
         // Workaround for listener
-        ttsWatcher = new Timer("ttsWatcher", true);
-        ttsWatcherTask = new TtsWatcherTask();
-        ttsWatcher.schedule(ttsWatcherTask, 1000, 1000);
+        ttsw = new TTSWatcher(tts, ttswListener);
 	}
 	
 	private void deactivateTTS() {
-		ttsWatcherTask.cancel();
-		ttsWatcher.cancel();
-		tts.shutdown();
+		ttsw.shutdown();
 	}
 
-	private void proceedWithText() {
+	private void goToNextPage() {
 		int position = cardScrollView.getSelectedItemPosition();
 		if (position < cardScrollAdapter.getCount() - 1) {
 			cardScrollView.setSelection(position + 1);
-			speak();
 		}
 	}
 	
-	private void speak() {
-		int position = cardScrollView.getSelectedItemPosition();
-		// String text = "Card " + (position + 1) + "is selected";
-		String text = ((TextLineModel) cardScrollAdapter.getItem(position)).getSpeakingText();
-		tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
-		
-		ttsWatcherTask.start();
-	}
-
-	@Override
-	protected void onDestroy() {
-		deactivateSensors();
-		deactivateTTS();
-		saveState();
-		cardScrollView.deactivate();
-		super.onDestroy();
+	private void readCurrentCardAloud() {
+		if (ttsw != null) {
+			int position = cardScrollView.getSelectedItemPosition();
+			// String text = "Card " + (position + 1) + "is selected";
+			String text = ((TextLineModel) cardScrollAdapter.getItem(position)).getSpeakingText();
+			ttsw.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+		}
 	}
 	
-	// Not sure if it works
+	private void stopCurrentSpeech() {
+		ttsw.stop();
+	}
+	
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -275,12 +188,18 @@ public class MainActivity extends Activity {
 		activateSensors();
 	}
 	
-	// Not sure if it works
 	@Override
 	protected void onPause() {
 		super.onPause();
 		deactivateSensors();
 		deactivateTTS();
+	}
+
+	@Override
+	protected void onDestroy() {
+		saveState();
+		cardScrollView.deactivate();
+		super.onDestroy();
 	}
 	
 	private void activateSensors() {
@@ -292,19 +211,28 @@ public class MainActivity extends Activity {
 	}
 
 	private void saveState() {
-		SharedPreferences pref = getPreferences(MODE_PRIVATE);
+		SharedPreferences pref = getSharedPreferences(SavedStateConstants.NAME, MODE_PRIVATE);
 		SharedPreferences.Editor prefEditor = pref.edit();
+		
 		int currentLineIndex = cardScrollView.getSelectedItemPosition();
-		prefEditor.putInt(SAVED_STATE_CURRENT_LINE_INDEX, currentLineIndex);
+		prefEditor.putInt(SavedStateConstants.CURRENT_STORY_INDEX, storyModel.getIndex());
+		prefEditor.putInt(SavedStateConstants.CURRENT_LINE_INDEX, currentLineIndex);
+		
 		prefEditor.commit();
 	}
 	
-	private void restoreState() {
-		SharedPreferences pref = getPreferences(MODE_PRIVATE);
-		int currentLineIndex = pref.getInt(SAVED_STATE_CURRENT_LINE_INDEX, 0); 
-		cardScrollView.setSelection(currentLineIndex);
-	}
-	
+//	private void restoreState() {
+//		SharedPreferences pref = getPreferences(MODE_PRIVATE);
+//		
+//		String savedStoryTitle = pref.getString(SAVED_STATE_CURRENT_STORY_TITLE, "");
+//		Log.i("Gouranga", "savedStoryTitle: " + savedStoryTitle);
+//		Log.i("Gouranga", "currentStoryTitle: " + storyModel.getTitle());
+//		if (savedStoryTitle.equals(storyModel.getTitle())) {
+//			int currentLineIndex = pref.getInt(SAVED_STATE_CURRENT_LINE_INDEX, 0); 
+//			cardScrollView.setSelection(currentLineIndex);
+//		}
+//	}
+
 //	@Override
 //	public boolean onKeyDown(int keyCode, KeyEvent event) {
 //		if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER) {

@@ -12,7 +12,7 @@
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
-     limitations under the License.
+     limitations under the License.
 -->
 
 <resources>
@@ -21,6 +21,8 @@
     <string name="go_ran_ga">go-ran-ga</string>
     <string name="stop">Stop</string>
     <string name="next">Next</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello, world.</string> <!-- remove later -->
+    <string name="action_settings">Settings</string> <!-- remove later -->
+    <string name="select_story">カイテンして選択、オジギをして読む!</string>
 
 </resources>

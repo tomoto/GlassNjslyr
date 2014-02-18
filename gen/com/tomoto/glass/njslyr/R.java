@@ -9,8 +9,56 @@ package com.tomoto.glass.njslyr;
 
 public final class R {
     public static final class array {
-        public static final int story=0x7f080000;
-        public static final int story_speech=0x7f080001;
+        public static final int story_speech_210287=0x7f09002b;
+        public static final int story_speech_210847=0x7f09002c;
+        public static final int story_speech_211063=0x7f09002d;
+        public static final int story_speech_67505=0x7f090017;
+        public static final int story_speech_67506=0x7f090016;
+        public static final int story_speech_67510=0x7f090015;
+        public static final int story_speech_67517=0x7f090014;
+        public static final int story_speech_67518=0x7f090013;
+        public static final int story_speech_67523=0x7f090011;
+        public static final int story_speech_72400=0x7f090009;
+        public static final int story_speech_72554=0x7f090012;
+        public static final int story_speech_72801=0x7f090005;
+        public static final int story_speech_72865=0x7f090006;
+        public static final int story_speech_72874=0x7f090007;
+        public static final int story_speech_72885=0x7f090008;
+        public static final int story_speech_73081=0x7f090020;
+        public static final int story_speech_73084=0x7f090021;
+        public static final int story_speech_73090=0x7f090022;
+        public static final int story_speech_73111=0x7f090023;
+        public static final int story_speech_73121=0x7f090024;
+        public static final int story_speech_73136=0x7f090025;
+        public static final int story_speech_73139=0x7f090026;
+        public static final int story_speech_73143=0x7f090027;
+        public static final int story_speech_77433=0x7f090030;
+        public static final int story_speech_77439=0x7f090031;
+        public static final int story_text_210287=0x7f090028;
+        public static final int story_text_210847=0x7f090029;
+        public static final int story_text_211063=0x7f09002a;
+        public static final int story_text_67505=0x7f090010;
+        public static final int story_text_67506=0x7f09000f;
+        public static final int story_text_67510=0x7f09000e;
+        public static final int story_text_67517=0x7f09000d;
+        public static final int story_text_67518=0x7f09000c;
+        public static final int story_text_67523=0x7f09000a;
+        public static final int story_text_72400=0x7f090004;
+        public static final int story_text_72554=0x7f09000b;
+        public static final int story_text_72801=0x7f090000;
+        public static final int story_text_72865=0x7f090001;
+        public static final int story_text_72874=0x7f090002;
+        public static final int story_text_72885=0x7f090003;
+        public static final int story_text_73081=0x7f090018;
+        public static final int story_text_73084=0x7f090019;
+        public static final int story_text_73090=0x7f09001a;
+        public static final int story_text_73111=0x7f09001b;
+        public static final int story_text_73121=0x7f09001c;
+        public static final int story_text_73136=0x7f09001d;
+        public static final int story_text_73139=0x7f09001e;
+        public static final int story_text_73143=0x7f09001f;
+        public static final int story_text_77433=0x7f09002e;
+        public static final int story_text_77439=0x7f09002f;
     }
     public static final class attr {
     }
@@ -35,32 +83,66 @@ public final class R {
         public static final int ic_stop=0x7f020004;
     }
     public static final class id {
+        public static final int action_settings=0x7f0c0005;
         public static final int centi_second=0x7f0c0002;
         public static final int minute=0x7f0c0000;
         public static final int next=0x7f0c0004;
         public static final int second=0x7f0c0001;
         public static final int seconds_view=0x7f0c0003;
-        public static final int stop=0x7f0c0005;
+        public static final int stop=0x7f0c0006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int card_chronometer=0x7f030001;
-        public static final int card_countdown=0x7f030002;
+        public static final int activity_root=0x7f030001;
+        public static final int card_chronometer=0x7f030002;
+        public static final int card_countdown=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
-        public static final int stopwatch=0x7f0b0001;
+        public static final int root=0x7f0b0001;
+        public static final int stopwatch=0x7f0b0002;
     }
     public static final class raw {
         public static final int countdown_bip=0x7f050000;
         public static final int start=0x7f050001;
     }
     public static final class string {
-        public static final int app_name=0x7f090000;
-        public static final int go_ran_ga=0x7f090001;
-        public static final int hello_world=0x7f090004;
-        public static final int next=0x7f090003;
-        public static final int stop=0x7f090002;
+        /**  remove later 
+         */
+        public static final int action_settings=0x7f08001e;
+        public static final int app_name=0x7f080019;
+        public static final int go_ran_ga=0x7f08001a;
+        public static final int hello_world=0x7f08001d;
+        public static final int next=0x7f08001c;
+        /**  remove later 
+         */
+        public static final int select_story=0x7f08001f;
+        public static final int stop=0x7f08001b;
+        public static final int story_title_210287=0x7f080014;
+        public static final int story_title_210847=0x7f080015;
+        public static final int story_title_211063=0x7f080016;
+        public static final int story_title_67505=0x7f08000b;
+        public static final int story_title_67506=0x7f08000a;
+        public static final int story_title_67510=0x7f080009;
+        public static final int story_title_67517=0x7f080008;
+        public static final int story_title_67518=0x7f080007;
+        public static final int story_title_67523=0x7f080005;
+        public static final int story_title_72400=0x7f080004;
+        public static final int story_title_72554=0x7f080006;
+        public static final int story_title_72801=0x7f080000;
+        public static final int story_title_72865=0x7f080001;
+        public static final int story_title_72874=0x7f080002;
+        public static final int story_title_72885=0x7f080003;
+        public static final int story_title_73081=0x7f08000c;
+        public static final int story_title_73084=0x7f08000d;
+        public static final int story_title_73090=0x7f08000e;
+        public static final int story_title_73111=0x7f08000f;
+        public static final int story_title_73121=0x7f080010;
+        public static final int story_title_73136=0x7f080011;
+        public static final int story_title_73139=0x7f080012;
+        public static final int story_title_73143=0x7f080013;
+        public static final int story_title_77433=0x7f080017;
+        public static final int story_title_77439=0x7f080018;
     }
     public static final class style {
         public static final int ChronometerComponent=0x7f0a0000;

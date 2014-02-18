@@ -1,6 +1,9 @@
-package com.tomoto.glass.njslyr;
+package com.tomoto.glass.njslyr.model;
 
-public class TextLineModel {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class TextLineModel implements Serializable {
 	private int index;
 	private String text;
 	private String speakingText;
