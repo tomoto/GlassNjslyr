@@ -12,8 +12,11 @@ import android.content.SharedPreferences;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.view.KeyEvent;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 
 import com.google.android.glass.app.Card;
 import com.google.android.glass.app.Card.ImageLayout;
@@ -31,6 +34,7 @@ public class RootActivity extends Activity {
 	private CardScrollView cardScrollView;
 	private RootCardScrollAdapter cardScrollAdapter;
 	private OrientationManager orientationManager;
+	private boolean transitionStarted;
 	
 	private int baseSelectedIndex;
 	private float baseHeading;
@@ -108,7 +112,23 @@ public class RootActivity extends Activity {
 		cardScrollView.activate();
 		setContentView(cardScrollView);
 		
+		cardScrollView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long it) {
+				drillDownToCurrentlySelectedStory();
+			}
+		});
+		
 		restoreState();
+	}
+	
+	@Override
+	public boolean onGenericMotionEvent(MotionEvent event) {
+		if (event.getAction() == MotionEvent.ACTION_DOWN) {
+			// If user started to use the finger, stop the orientation sensing.
+			orientationManager.stop();
+		}
+		return super.onGenericMotionEvent(event);
 	}
 	
 	private void restoreState() {
@@ -132,6 +152,7 @@ public class RootActivity extends Activity {
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		orientationManager.start();
 		isBaseHeadingValid = false;
+		transitionStarted = false;
 		
 		highlightPreviouslySelectedCard();
 	}
@@ -163,15 +184,6 @@ public class RootActivity extends Activity {
 		orientationManager.stop();
 	}
 	
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER) {
-			drillDownToCurrentlySelectedStory();
-		}
-		
-		return super.onKeyDown(keyCode, event);
-	}
-
 	private void drillDownToCurrentlySelectedStory() {
 		int storyIndex = cardScrollView.getSelectedItemPosition();
 		
@@ -187,10 +199,10 @@ public class RootActivity extends Activity {
 	}
 	
 	protected void drillDownToStory(StoryModel story, int line) {
-		if (!orientationManager.isTracking()) {
-			return;
+		if (transitionStarted) {
+			return; // guard from reentrance
 		}
-		orientationManager.stop();
+		transitionStarted = true;
 		
     	drillDownToStoryInternal(story, line);
 	}
