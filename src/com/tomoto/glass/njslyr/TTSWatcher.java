@@ -3,6 +3,7 @@ package com.tomoto.glass.njslyr;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.regex.Pattern;
 
 import android.os.Handler;
 import android.speech.tts.TextToSpeech;
@@ -28,13 +29,17 @@ public class TTSWatcher {
 		// 1: waiting for start
 		// 2: waiting for finish
 		private int state = 0;
+		private long startedTime;
+		private long timeout;
 
 		public void disable() {
 			state = 0;
 		}
 		
-		public void reset() {
+		public void start(long timeout) {
 			state = 1;
+			this.timeout = timeout;
+			this.startedTime = System.currentTimeMillis();
 		}
 		
 		@Override
@@ -46,21 +51,27 @@ public class TTSWatcher {
 				Log.i("Gouranga", "Waiting for speech to start");
 				if (tts.isSpeaking()) {
 					state = 2;
+				} else if (timeout > 0 && System.currentTimeMillis() - startedTime > timeout) {
+					endSpeech(); 
 				}
 				break;
 			case 2:
 				Log.i("Gouranga", "Waiting for speech to finish");
 				if (!tts.isSpeaking()) {
-					handler.post(new Runnable() {
-						@Override
-						public void run() {
-							stopWatching(false);
-						}
-					});
-					state = 0;
+					endSpeech();
 				}
 				break;
 			}
+		}
+
+		private void endSpeech() {
+			handler.post(new Runnable() {
+				@Override
+				public void run() {
+					stopWatching(false);
+				}
+			});
+			state = 0;
 		}
 	};
 	
@@ -81,8 +92,13 @@ public class TTSWatcher {
 	}
 	
 	public void speak(String text, int queueMode, HashMap<String, String> params) {
-		tts.speak(text, queueMode, params);
-		startWatching();
+		if (Pattern.compile("[aiueoAIUEO0-9]").matcher(text).find()) {
+			// readable
+			tts.speak(text, queueMode, params);
+			startWatching(0);
+		} else {
+			startWatching(1000);
+		}
 	}
 	
 	public void stop() {
@@ -90,12 +106,12 @@ public class TTSWatcher {
 		stopWatching(true);
 	}
 	
-	private synchronized void startWatching() {
+	private synchronized void startWatching(long timeout) {
 		if (speaking) {
 			stopWatching(true);
 		}
 		
-		timerTask.reset();
+		timerTask.start(timeout);
 //		timer.schedule(timerTask, 1000, 1000);
 		speaking = true;
 		
