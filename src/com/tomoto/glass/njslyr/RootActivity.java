@@ -12,7 +12,6 @@ import android.content.SharedPreferences;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.WindowManager;
 
@@ -21,6 +20,7 @@ import com.google.android.glass.app.Card.ImageLayout;
 import com.google.android.glass.media.Sounds;
 import com.google.android.glass.widget.CardScrollView;
 import com.tomoto.glass.model.factory.StoryModelFactory;
+import com.tomoto.glass.model.util.MathUtils;
 import com.tomoto.glass.njslyr.model.StoryModel;
 
 public class RootActivity extends Activity {
@@ -34,7 +34,7 @@ public class RootActivity extends Activity {
 	
 	private int baseSelectedIndex;
 	private float baseHeading;
-	private boolean isBaseAzimuthValid;
+	private boolean isBaseHeadingValid;
 	private long lastDetectedTime;
 	
 	private List<StoryModel> storyModels;
@@ -69,30 +69,22 @@ public class RootActivity extends Activity {
 					drillDownToCurrentlySelectedStory();
 				} else {
 					float heading = om.getHeading();
-					
-					float faceDirection = heading - baseHeading;
-					while (faceDirection <= -180) faceDirection += 360;
-					while (faceDirection > 180) faceDirection -= 360;
-					
 					long currentTime = System.currentTimeMillis();
-					if (isBaseAzimuthValid && Math.abs(faceDirection) > 15 && Math.abs(faceDirection) < 90) {
-						int index = cardScrollView.getSelectedItemPosition();
-						if ((faceDirection > 0 && index < storyModels.size() - 1) || (faceDirection < 0 && index > 0)) {
-							if (currentTime - lastDetectedTime > 250 - Math.abs(faceDirection)) {
-								index += (faceDirection > 0) ? 1 : -1;
-								cardScrollView.setSelection(index);
-								lastDetectedTime = currentTime;
-							}
-							return;
-						}
-					}
 					
-					if (!isBaseAzimuthValid || currentTime - lastDetectedTime > 3000) {
+					if (!isBaseHeadingValid) {
 						lastDetectedTime = currentTime;
 						baseSelectedIndex = cardScrollView.getSelectedItemPosition();
 						baseHeading = heading;
-						isBaseAzimuthValid = true;
+						isBaseHeadingValid = true;
+						return;
 					}
+					
+					float direction = MathUtils.mod(heading - baseHeading + 180, 360) - 180;
+					float adjustedDirection = direction > 15 ? direction - 15 : direction < -15 ? direction + 15 : 0;  
+					
+					int index = (int) MathUtils.mod(baseSelectedIndex + adjustedDirection / (360 - 15 * 2) * storyModels.size(), storyModels.size());
+					
+					cardScrollView.setSelection(index);
 				}
 			}
 			
@@ -139,11 +131,11 @@ public class RootActivity extends Activity {
 		
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		orientationManager.start();
-		isBaseAzimuthValid = false;
+		isBaseHeadingValid = false;
 		
 		highlightPreviouslySelectedCard();
 	}
-
+	
 	private void highlightPreviouslySelectedCard() {
 		for (Card card : cardScrollAdapter.cards) {
 			card.clearImages();

@@ -192,11 +192,11 @@ public class MainActivity extends Activity {
 		super.onPause();
 		deactivateSensors();
 		deactivateTTS();
+		saveState();
 	}
 
 	@Override
 	protected void onDestroy() {
-		saveState();
 		cardScrollView.deactivate();
 		super.onDestroy();
 	}
