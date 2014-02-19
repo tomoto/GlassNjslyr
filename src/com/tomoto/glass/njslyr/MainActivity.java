@@ -164,6 +164,9 @@ public class MainActivity extends Activity {
 		int position = cardScrollView.getSelectedItemPosition();
 		if (position < cardScrollAdapter.getCount() - 1) {
 			cardScrollView.setSelection(position + 1);
+		} else {
+			cardScrollView.setSelection(0);
+			finish(); // reached to the end
 		}
 	}
 	
