@@ -20,5 +20,6 @@
     <string name="app_name">Njslyr</string>
     <string name="go_ran_ga">go-ran-ga</string>
     <string name="select_story">カイテンして選択、オジギをして読む!</string>
-
+    <string name="continue_story">Now Reading: オジギをして続きを読む!</string>
+    
 </resources>

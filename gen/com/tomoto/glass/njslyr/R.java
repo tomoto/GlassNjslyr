@@ -77,11 +77,13 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_background=0x7f020000;
-        public static final int ic_colon=0x7f020001;
-        public static final int ic_interpunc=0x7f020002;
-        public static final int ic_lap=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int ic_stop=0x7f020005;
+        public static final int ic_black=0x7f020001;
+        public static final int ic_colon=0x7f020002;
+        public static final int ic_interpunc=0x7f020003;
+        public static final int ic_lap=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int ic_selected=0x7f020006;
+        public static final int ic_stop=0x7f020007;
     }
     public static final class id {
         public static final int splash_image=0x7f0b0000;
@@ -95,6 +97,7 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f080019;
+        public static final int continue_story=0x7f08001c;
         public static final int go_ran_ga=0x7f08001a;
         public static final int select_story=0x7f08001b;
         public static final int story_title_210287=0x7f080014;
