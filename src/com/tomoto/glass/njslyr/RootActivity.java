@@ -12,10 +12,8 @@ import android.content.SharedPreferences;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.AdapterView;
 
 import com.google.android.glass.app.Card;
@@ -36,10 +34,12 @@ public class RootActivity extends Activity {
 	private OrientationManager orientationManager;
 	private boolean transitionStarted;
 	
+	private ScreenWaker screenWaker; 
+	
 	private int baseSelectedIndex;
 	private float baseHeading;
 	private boolean isBaseHeadingValid;
-	private long lastDetectedTime;
+//	private long lastDetectedTime;
 	
 	private List<StoryModel> storyModels;
 
@@ -76,7 +76,7 @@ public class RootActivity extends Activity {
 					long currentTime = System.currentTimeMillis();
 					
 					if (!isBaseHeadingValid) {
-						lastDetectedTime = currentTime;
+//						lastDetectedTime = currentTime;
 						baseSelectedIndex = cardScrollView.getSelectedItemPosition();
 						baseHeading = heading;
 						isBaseHeadingValid = true;
@@ -119,6 +119,20 @@ public class RootActivity extends Activity {
 			}
 		});
 		
+		screenWaker = new ScreenWaker(getWindow());
+		
+		cardScrollView.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+			@Override
+			public void onItemSelected(AdapterView<?> parent, View view, int position, long it) {
+				screenWaker.extend(5000);
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> parent) {
+				screenWaker.extend(5000);
+			}
+		});
+		
 		restoreState();
 	}
 	
@@ -149,7 +163,7 @@ public class RootActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		
-		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		// getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		orientationManager.start();
 		isBaseHeadingValid = false;
 		transitionStarted = false;
@@ -180,7 +194,7 @@ public class RootActivity extends Activity {
 	@Override
 	protected void onPause() {
 		super.onPause();
-		getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		// getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		orientationManager.stop();
 	}
 	
