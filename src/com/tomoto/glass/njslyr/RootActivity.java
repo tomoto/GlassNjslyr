@@ -33,7 +33,7 @@ public class RootActivity extends Activity {
 	private OrientationManager orientationManager;
 	
 	private int baseSelectedIndex;
-	private float baseAzimuth;
+	private float baseHeading;
 	private boolean isBaseAzimuthValid;
 	private long lastDetectedTime;
 	
@@ -59,36 +59,53 @@ public class RootActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 	    SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-		orientationManager = new OrientationManager(sensorManager, new OrientationManager.Listener() {
+		orientationManager = new OrientationManager(sensorManager, null);
+		orientationManager.addOnChangedListener(new OrientationManager.OnChangedListener() {
+			
 			@Override
-			public void onSensorChanged(OrientationManager om) {
+			public void onOrientationChanged(OrientationManager om) {
 				if (om.getPitch() > 30) {
 					// Ojigi
 					drillDownToCurrentlySelectedStory();
 				} else {
-					float azimuth = om.getAzimuth();
+					float heading = om.getHeading();
 					
-					float faceDirection = azimuth - baseAzimuth;
+					float faceDirection = heading - baseHeading;
 					while (faceDirection <= -180) faceDirection += 360;
 					while (faceDirection > 180) faceDirection -= 360;
 					
 					long currentTime = System.currentTimeMillis();
 					if (isBaseAzimuthValid && Math.abs(faceDirection) > 15 && Math.abs(faceDirection) < 90) {
-						Log.i("Gouranga", "" + faceDirection);
-						if (currentTime - lastDetectedTime > 250) {
-							int index = cardScrollView.getSelectedItemPosition();
-							index += (faceDirection < 0) ? 1 : -1;
-							index = Math.min(Math.max(0,  index), storyModels.size() - 1);
-							cardScrollView.setSelection(index);
-							lastDetectedTime = currentTime;
+						int index = cardScrollView.getSelectedItemPosition();
+						if ((faceDirection > 0 && index < storyModels.size() - 1) || (faceDirection < 0 && index > 0)) {
+							if (currentTime - lastDetectedTime > 250 - Math.abs(faceDirection)) {
+								index += (faceDirection > 0) ? 1 : -1;
+								cardScrollView.setSelection(index);
+								lastDetectedTime = currentTime;
+							}
+							return;
 						}
-					} else if (!isBaseAzimuthValid || currentTime - lastDetectedTime > 3000) {
+					}
+					
+					if (!isBaseAzimuthValid || currentTime - lastDetectedTime > 3000) {
 						lastDetectedTime = currentTime;
 						baseSelectedIndex = cardScrollView.getSelectedItemPosition();
-						baseAzimuth = azimuth;
+						baseHeading = heading;
 						isBaseAzimuthValid = true;
 					}
 				}
+			}
+			
+			@Override
+			public void onLocationChanged(OrientationManager orientationManager) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onAccuracyChanged(OrientationManager orientationManager) {
+				// TODO Auto-generated method stub
+				
 			}
 		});
 		
@@ -178,12 +195,11 @@ public class RootActivity extends Activity {
 	}
 	
 	protected void drillDownToStory(StoryModel story, int line) {
-		if (!orientationManager.isStarted()) {
+		if (!orientationManager.isTracking()) {
 			return;
 		}
+		orientationManager.stop();
 		
-    	orientationManager.stop();
-    	
     	drillDownToStoryInternal(story, line);
 	}
 	
