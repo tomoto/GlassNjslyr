@@ -48,7 +48,7 @@ public class TTSWatcher {
 			case 0:
 				break;
 			case 1:
-				Log.i("Gouranga", "Waiting for speech to start");
+				Log.d("Gouranga", "Waiting for speech to start");
 				if (tts.isSpeaking()) {
 					state = 2;
 				} else if (timeout > 0 && System.currentTimeMillis() - startedTime > timeout) {
@@ -56,7 +56,7 @@ public class TTSWatcher {
 				}
 				break;
 			case 2:
-				Log.i("Gouranga", "Waiting for speech to finish");
+				Log.d("Gouranga", "Waiting for speech to finish");
 				if (!tts.isSpeaking()) {
 					endSpeech();
 				}
