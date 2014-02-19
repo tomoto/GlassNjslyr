@@ -1,8 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item
-        android:id="@+id/next"
-        android:title="@string/next"
-        android:icon="@drawable/ic_stop"/>
-
-</menu>

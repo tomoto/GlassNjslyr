@@ -11,9 +11,6 @@ import android.content.SharedPreferences;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.os.Handler;
-import android.text.format.Time;
-import android.view.Menu;
 
 import com.google.android.glass.app.Card;
 import com.google.android.glass.media.Sounds;
@@ -122,13 +119,6 @@ public class RootActivity extends Activity {
 		super.onPause();
 		// getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		orientationManager.stop();
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.root, menu);
-		return true;
 	}
 
 }
