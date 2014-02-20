@@ -3,6 +3,8 @@ GlassNjslyr
 
 Sorry Japanese only.
 
+## Description
+
 習作として作成したGoogle Glass用ハンズフリーニンジャスレイヤーリーダーです。
 (人生初のオリジナルAndroidアプリがこれかよ!)
 
@@ -14,13 +16,19 @@ Sorry Japanese only.
   * 実際かなり熱くなる。
 * ストーリーはWikiより「ヘッズのおすすめエピソード」5本を決め打ちしてあります。
 
-![voice command](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot1.png)
+## Video (on YouTube)
 
-![story selection](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot2.png)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=voAUlmiJwls
+" target="_blank"><img src="http://img.youtube.com/vi/voAUlmiJwls/0.jpg" 
+alt="video" width="240" height="180" border="10" /></a>
 
-![contents](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot3.png)
+## Screenshots
 
-* Other TODOs
+![voice command](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot1.png) &nbsp;
+![story selection](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot2.png) &nbsp;
+![contents](https://raw.github.com/tomoto/GlassNjslyr/master/img/Screenshot3.png) &nbsp;
+
+## Other TODOs
   * contextual voice command (not supported)
   * オジギアクション、ハイクアクション
   * ストーリー選択時のセンサー精度の改善、タッチ後disableされたセンサーの一定時間後の復活
