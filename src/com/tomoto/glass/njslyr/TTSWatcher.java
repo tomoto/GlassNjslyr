@@ -92,13 +92,8 @@ public class TTSWatcher {
 	}
 	
 	public void speak(String text, int queueMode, HashMap<String, String> params) {
-		if (Pattern.compile("[aiueoAIUEO0-9]").matcher(text).find()) {
-			// readable
-			tts.speak(text, queueMode, params);
-			startWatching(0);
-		} else {
-			startWatching(1000);
-		}
+		tts.speak(text, queueMode, params);
+		startWatching(3000);
 	}
 	
 	public void stop() {

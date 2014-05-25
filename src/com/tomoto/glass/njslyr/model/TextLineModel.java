@@ -28,7 +28,8 @@ public class TextLineModel implements Serializable {
 	}
 
 	public String getSpeakingText() {
-		return speakingText;
+		// return speakingText;
+		return text.replaceAll("[「」『』　]", "、").replaceAll("[？！]", "。");
 	}
 
 	public void setSpeakingText(String speakingText) {
