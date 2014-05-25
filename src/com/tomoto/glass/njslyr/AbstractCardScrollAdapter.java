@@ -18,17 +18,12 @@ public class AbstractCardScrollAdapter<T> extends CardScrollAdapter {
 	}
 	
 	@Override
-	public int findIdPosition(Object id) {
+	public int getPosition(Object id) {
 		if (id instanceof Number) {
 			return ((Number)id).intValue();
 		} else {
 			return CardScrollView.INVALID_POSITION;
 		}
-	}
-
-	@Override
-	public int findItemPosition(Object item) {
-		return items.indexOf(item);
 	}
 
 	@Override
@@ -43,7 +38,6 @@ public class AbstractCardScrollAdapter<T> extends CardScrollAdapter {
 
 	@Override
 	public View getView(int position, View contentView, ViewGroup parent) {
-		return cards.get(position).toView();
+		return cards.get(position).getView();
 	}
-	
 }

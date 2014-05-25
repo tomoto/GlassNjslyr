@@ -73,7 +73,7 @@ public class RootActivity extends Activity {
 					drillDownToCurrentlySelectedStory();
 				} else {
 					float heading = om.getHeading();
-					long currentTime = System.currentTimeMillis();
+//					long currentTime = System.currentTimeMillis();
 					
 					if (!isBaseHeadingValid) {
 //						lastDetectedTime = currentTime;
@@ -188,7 +188,7 @@ public class RootActivity extends Activity {
 			card.setFootnote(R.string.continue_story);
 		}
 		
-		cardScrollView.updateViews(true);
+		cardScrollAdapter.notifyDataSetChanged();
 	}
 	
 	@Override
