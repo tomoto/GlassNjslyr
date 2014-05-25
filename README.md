@@ -16,6 +16,11 @@ Sorry Japanese only.
   * [実際](http://www10.atwiki.jp/njslyr/pages/16.html#id_f5061126)かなり熱くなる。
 * ストーリーはWikiの[ヘッズのおすすめエピソード](http://www10.atwiki.jp/njslyr/pages/23.html#id_cb0f3921)より5本を決め打ちしてあります。
 
+## Installation
+
+* Gouranga.apk (デバッグ版apk)をダウンロードして adb install Gouranga.apk すればたぶんインストールできるでしょう。
+* もしくはリポジトリを丸ごと取得してadt(上のEclipse)にインポートしてください。
+
 ## Video (on YouTube)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=voAUlmiJwls
