@@ -3,7 +3,6 @@ package com.tomoto.glass.njslyr;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.regex.Pattern;
 
 import android.os.Handler;
 import android.speech.tts.TextToSpeech;

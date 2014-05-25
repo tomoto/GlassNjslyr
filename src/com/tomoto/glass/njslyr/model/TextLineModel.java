@@ -6,6 +6,8 @@ import java.io.Serializable;
 public class TextLineModel implements Serializable {
 	private int index;
 	private String text;
+	
+	@SuppressWarnings("unused")
 	private String speakingText;
 	
 	public TextLineModel(int index, String text, String speakingText) {
