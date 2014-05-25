@@ -5,16 +5,16 @@ Sorry Japanese only.
 
 ## Description
 
-習作として作成したGoogle Glass用ハンズフリー[ニンジャスレイヤー](http://www10.atwiki.jp/njslyr/)リーダーです。
+習作として作成したGoogle Glass用ハンズフリー[ニンジャスレイヤー](http://wikiwiki.jp/njslyr/?%A5%CB%A5%F3%A5%B8%A5%E3%A5%B9%A5%EC%A5%A4%A5%E4%A1%BC%A4%C8%A4%CF%A1%A9)リーダーです。
 (人生初のオリジナルAndroidアプリがこれかよ!)
 
-* "OK Glass, [ゴウランガ](http://www10.atwiki.jp/njslyr/pages/22.html)！" で[ワザマエ](http://www10.atwiki.jp/njslyr/pages/446.html#id_aaaf06ae)なスプラッシュとともに起動します。
-* 頭を水平に回転してストーリーを選択し、隙の無い[オジギ](http://www10.atwiki.jp/njslyr/pages/16.html#id_06c87d19)を決めて読み始めます。
+* "OK Glass, [ゴウランガ](http://wikiwiki.jp/njslyr/?cmd=read&page=%A5%B4%A5%A6%A5%E9%A5%F3%A5%AC)！" で[ワザマエ](http://wikiwiki.jp/njslyr/?%A5%B3%A5%C8%A5%C0%A5%DE%A1%CA%A4%CF%B9%D4%A1%C1%A4%EF%B9%D4%A1%A6%B1%D1%BF%F4%B5%AD%B9%E6%A1%CB#oa0750b6)なスプラッシュとともに起動します。
+* 頭を水平に回転してストーリーを選択し、隙の無い[オジギ](http://wikiwiki.jp/njslyr/?%A5%B3%A5%C8%A5%C0%A5%DE%A1%CA%A4%A2%B9%D4%A1%C1%A4%CA%B9%D4%A1%CB#e71fa9c8)を決めて読み始めます。
   * タッチでも操作できます。
 * ~~謎のガイジンによる~~読み上げが行なわれます。(V1.1で日本語に対応しました)
-  * ~~TTS(Text-to-speech)が英語のみ対応なので、テキストをkakasiで無理やりローマ字に変換し、英語版TTSに放り込むという[ジツ](http://www10.atwiki.jp/njslyr/pages/16.html#id_062c744f)を用いています。~~
-  * [実際](http://www10.atwiki.jp/njslyr/pages/16.html#id_f5061126)かなり熱くなる。
-* ストーリーはWikiの[ヘッズのおすすめエピソード](http://www10.atwiki.jp/njslyr/pages/23.html#id_cb0f3921)より5本を決め打ちしてあります。
+  * ~~TTS(Text-to-speech)が英語のみ対応なので、テキストをkakasiで無理やりローマ字に変換し、英語版TTSに放り込むという[ジツ](http://wikiwiki.jp/njslyr/?%A5%B3%A5%C8%A5%C0%A5%DE%A1%CA%A4%A2%B9%D4%A1%C1%A4%CA%B9%D4%A1%CB#xf627878)を用いています。~~
+  * [実際](http://wikiwiki.jp/njslyr/?%A5%B3%A5%C8%A5%C0%A5%DE%A1%CA%A4%A2%B9%D4%A1%C1%A4%CA%B9%D4%A1%CB#gba1566d)かなり熱くなる。
+* ストーリーはWikiの[ヘッズのおすすめエピソード](http://wikiwiki.jp/njslyr/?%A4%E8%A4%AF%A4%A2%A4%EB%BC%C1%CC%E4#w8ef9162)より5本を決め打ちしてあります。
 
 ## Installation
 
